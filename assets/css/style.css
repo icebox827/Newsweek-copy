@@ -9,11 +9,80 @@
 
 .navbar {
   background-color: rgb(245, 76, 14);
+  width: 100%;
 }
 
+.btn .btn-warning {
+  color: yellow;
+  border-radius: 35%;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.block-title {
+  color: grey;
+  position: relative;
+  top: 80px;
+}
+
+.card .card-image img {
+  width: 100%;
+  float: right;
+}
+
+.card .card-category a {
+  background-color: rgb(196, 194, 194);
+  font-size: large;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: red;
+  float: left;
+}
+
+.card .card-content p {
+  font-size: small;
+}
+
+.content {
+  display: none;
+}
+
+.summary {
+  display: none;
+}
+
+.wrap-summary {
+  display: none;
+}
 
 @media screen and (max-width: 768px) {
-  .brand img {
+  .card{
+    position: relative;
+    display: block;
     width: 100%;
+    top: 80px;
+  }
+  
+  .wrap-summary img {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+  
+  .summary p {
+    font-size: small;
+  }
+
+  #mobile-nav {
+    max-width: 768px;
   }
 }
