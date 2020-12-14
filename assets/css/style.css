@@ -49,6 +49,16 @@ a {
   float: left;
 }
 
+.card .card-category-sponsored a {
+  background-color: rgb(196, 194, 194);
+  font-size: large;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(0, 132, 255);
+  float: left;
+}
+
 .card .card-content p {
   font-size: small;
 }
