@@ -30,6 +30,8 @@ a {
   color: grey;
   position: relative;
   top: 80px;
+  text-transform: uppercase;
+  font-size: medium;
 }
 
 .card .card-image img {
@@ -49,6 +51,32 @@ a {
 
 .card .card-content p {
   font-size: small;
+}
+
+.debate-image img {
+  padding-top: 80px;
+}
+
+.debate-title a {
+  float: right;
+  font-weight: 800;
+  color: black ;
+  text-decoration: none;
+}
+
+.debate-text {
+  float: right;
+}
+
+.versus {
+  position: relative;
+  margin: 0 auto;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: grey;
+  background-color: black;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
