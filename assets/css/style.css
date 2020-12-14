@@ -6,3 +6,14 @@
 .selector-for-some-widget {
   box-sizing: content-box;
 }
+
+.navbar {
+  background-color: rgb(245, 76, 14);
+}
+
+
+@media screen and (max-width: 768px) {
+  .brand img {
+    width: 100%;
+  }
+}
