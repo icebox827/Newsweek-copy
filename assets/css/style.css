@@ -51,18 +51,6 @@ a {
   font-size: small;
 }
 
-.content {
-  display: none;
-}
-
-.summary {
-  display: none;
-}
-
-.wrap-summary {
-  display: none;
-}
-
 @media screen and (max-width: 768px) {
   .card{
     position: relative;
@@ -71,15 +59,18 @@ a {
     top: 80px;
   }
   
-  .wrap-summary img {
-    width: 100%;
+  .card .summary-image{
+    float: left;
   }
-  .content {
-    width: 100%;
+
+  .content a {
+    font-size: large;
+    float: right;
   }
   
   .summary p {
     font-size: small;
+    float: right;
   }
 
   #mobile-nav {
