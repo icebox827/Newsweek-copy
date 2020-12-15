@@ -388,11 +388,26 @@ a {
   list-style: none;
 }
 
+.footer-menu li a {
+  font-size: medium;
+  padding-left: 5px;
+}
+
 .menu {
   display: inline-block;
 }
 
 .menu a {
+  text-decoration: none;
+  color: rgb(116, 112, 112);
+  font-size: small;
+}
+
+.footer-link ul {
+  list-style: none;
+}
+
+.link a {
   text-decoration: none;
   color: rgb(116, 112, 112);
   font-size: small;
