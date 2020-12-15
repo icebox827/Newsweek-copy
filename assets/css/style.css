@@ -261,6 +261,13 @@ hr {
   font-size: small;
 }
 
+/* stories */
+
+#more-story {
+  position: relative;
+  top: 120px;
+}
+
 .story-wrapper img {
   float: left;
   width: 95px;
@@ -278,6 +285,13 @@ hr {
   font-size: small;
 }
 
+/* my turn */
+
+#my-turn {
+  position: relative;
+  top: 120px;
+}
+
 .turn-wrapper img {
   width: 100%;
   margin-top: 10px;
@@ -287,6 +301,39 @@ hr {
   color: grey;
   font-size: medium;
   margin-top: 10px;
+}
+
+/* Culture & travel */
+
+#culture {
+  position: relative;
+  top: 120px;
+}
+
+.card-culture {
+  width: 100%;
+}
+
+.card-culture .card-image-culture img {
+  width: 100%;
+}
+
+.card-culture .card-category-culture a {
+  position: absolute;
+  padding: 1px 7px 7px 1px;
+  margin-top: 16.5rem;
+  background-color: rgb(196, 194, 194);
+  font-size: large;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2c2c2c;
+  z-index: 1;
+}
+
+.card-culture .card-content-culture h4 {
+  font-weight: 600;
+  font-size: medium;
 }
 
 .culture-label img {
@@ -303,21 +350,6 @@ hr {
 
 .culture-label h5 {
   font-size: small;
-}
-
-#more-story {
-  position: relative;
-  top: 90px;
-}
-
-#my-turn {
-  position: relative;
-  top: 90px;
-}
-
-#culture {
-  position: relative;
-  top: 90px;
 }
 
 .newsletter {
