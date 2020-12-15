@@ -170,6 +170,30 @@ a {
   top: 70px;
 }
 
+#magazine {
+  position: relative;
+  top: 140px;
+}
+
+#magazine img {
+  width: 100%;
+}
+
+#magazine h5 {
+  text-transform: uppercase;
+  font-size: medium;
+  color: red;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.magazine-title {
+  color: rgb(68, 68, 68);
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 768px) {
   .card{
     position: relative;
