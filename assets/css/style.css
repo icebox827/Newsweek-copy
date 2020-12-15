@@ -148,6 +148,18 @@ a {
   top: 90px;
 }
 
+.newsletter {
+  position: relative;
+  width: 80%;
+  top: 110px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.icon {
+  background: url('https://g.newsweek.com/www/images/logo-n1.svg');
+}
+
 @media screen and (max-width: 768px) {
   .card{
     position: relative;
