@@ -194,15 +194,36 @@ a {
   text-transform: uppercase;
 }
 
+#all-features {
+  position: relative;
+  top: 125px;
+}
+
+#all-features h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: medium;
+  font-weight: 800;
+  color: rgb(65, 64, 64);
+  background-color: rgb(199, 195, 195);
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#all-features img {
+  width: 100%;
+  margin-top: -10px;
+}
+
 @media screen and (max-width: 768px) {
-  .card{
+  .card {
     position: relative;
     display: block;
     width: 100%;
     top: 80px;
   }
   
-  .card .summary-image{
+  .card .summary-image {
     float: left;
   }
 
