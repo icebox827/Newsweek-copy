@@ -239,6 +239,58 @@ a {
   padding-top: 12px;
 }
 
+#editors-pick {
+  position: relative;
+  top: 125px;
+}
+
+.editors-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: medium;
+  text-align: center;
+}
+
+.editors-image  img {
+  width: 100%;
+}
+
+.editors-category {
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.editors-category .editors-caption {
+  color: red;
+  background-color: rgb(216, 204, 204);
+  box-sizing: border-box;
+  padding: 5px;
+  z-index: 1;
+}
+
+.editors-text .editors-head {
+  font-weight: 800;
+  font-size: medium;
+}
+
+.editors-text .editors-content {
+  font-size: small;
+  font-weight: 400;
+}
+
+#subscription {
+  position: relative;
+  top: 125px;
+}
+
+.subscription-title {
+  text-transform: uppercase;
+  font-size: medium;
+  color: red;
+  font-weight: 700;
+}
+
 @media screen and (max-width: 768px) {
   .card {
     position: relative;
