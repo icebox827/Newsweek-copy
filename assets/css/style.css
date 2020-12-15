@@ -17,6 +17,10 @@ a {
   color: black;
 }
 
+hr {
+  border: 4px solid #333;
+}
+
 .block-title {
   color: grey;
   text-transform: uppercase;
@@ -130,35 +134,55 @@ a {
   font-size: small;
 }
 
-.card .card-category-sponsored a {
-  background-color: rgb(196, 194, 194);
-  font-size: large;
-  font-weight: 600;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: rgb(0, 132, 255);
-  float: left;
-}
 
 /* Debate */
 
-.debate-image img {
-  padding-top: 80px;
+#debate {
+  position: relative;
+  top: 140px;
 }
 
-.debate-title a {
-  float: right;
-  font-weight: 800;
-  color: black ;
-  text-decoration: none;
+.debate-wrapper img {
+  float: left;
+  padding-right: 10px;
 }
 
-.debate-text {
+.debate-wrapper h4 {
+  font-size: medium;
+  font-weight: 700;
+  color: black;
+}
+
+.debate-wrapper .debate-signature {
+  color: #333;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+.debate-wrapper-1 {
+  margin-top: -20px;
+}
+
+.debate-wrapper-1 img {
   float: right;
+  padding-left: 10px;
+}
+
+.debate-wrapper-1 h4 {
+  font-size: medium;
+  font-weight: 700;
+  color: black;
+}
+
+.debate-wrapper-1 .debate-signature {
+  color: #333;
+  font-weight: 500;
+  padding-left: 5px;
 }
 
 .versus {
   position: relative;
+  top: -30px;
   margin: 0 auto;
   width: 32px;
   height: 32px;
@@ -166,6 +190,75 @@ a {
   color: grey;
   background-color: black;
   text-align: center;
+}
+
+/* opinion */
+
+#opinion {
+  position: relative;
+  top: 130px;
+}
+
+.opinion-wrapper img {
+  float: left;
+  padding-right: 10px;
+}
+
+.opinion-wrapper h4 {
+  font-size: medium;
+  font-weight: 700;
+  color: black;
+}
+
+.opinion-wrapper p {
+  padding-left: 70px;
+}
+
+.opinion-wrapper .opinion-signature {
+  color: #333;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+.debate-image img {
+  float: left;
+}
+
+/* Sponsored & Rankings */
+
+#sponsored-rankings {
+  position: relative;
+  top: 130px;
+}
+
+.card-sponsored {
+  width: 100%;
+}
+
+.card-sponsored .card-image-sponsored img {
+  width: 100%;
+}
+
+.card-sponsored .card-category-sponsored a {
+  position: absolute;
+  padding: 1px 7px 7px 1px;
+  margin-top: 10.2rem;
+  background-color: rgb(196, 194, 194);
+  font-size: large;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3246f5;
+  z-index: 1;
+}
+
+.card-sponsored .card-content-sponsored h4 {
+  padding-top: 10px;
+  font-weight: 800;
+}
+
+.card-sponsored .card-content-sponsored p {
+  font-size: small;
 }
 
 .story-wrapper img {
@@ -242,11 +335,6 @@ a {
 .signup {
   width: 100%;
   margin: 10px;
-}
-
-#sponsored {
-  position: relative;
-  top: 70px;
 }
 
 #magazine {
