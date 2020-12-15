@@ -106,7 +106,44 @@ a {
   font-size: small;
 }
 
+.turn-wrapper img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.turn-wrapper h4 {
+  color: grey;
+  font-size: medium;
+  margin-top: 10px;
+}
+
+.culture-label img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.culture-label h4 {
+  background-color: grey;
+  color: rgb(48, 47, 47);
+  font-size: medium;
+  text-transform: uppercase;
+}
+
+.culture-label h5 {
+  font-size: small;
+}
+
 #more-story {
+  position: relative;
+  top: 90px;
+}
+
+#my-turn {
+  position: relative;
+  top: 90px;
+}
+
+#culture {
   position: relative;
   top: 90px;
 }
