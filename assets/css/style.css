@@ -290,6 +290,56 @@ a {
   color: red;
   font-weight: 700;
 }
+.sub-images {
+  position: relative;
+  margin: 0 auto;
+  background-color: rgb(211, 206, 206);
+}
+
+.sub-images img {
+  width: 60%;
+  height: auto;
+}
+
+.sub-images .prev-thumb {
+  position: relative;
+  top: 30px;
+  left: 15px;
+}
+
+.sub-images .current-thumb {
+  position: relative;
+  bottom: 12rem;
+  left: 6.5rem;
+}
+
+.sub-images .sub-info {
+  text-align: center;
+  font-size: large;
+  font-weight: 800;
+  margin-top: -10rem;
+}
+
+.sub-images .sub-text {
+  text-align: center;
+  
+}
+
+.sub-images button {
+  margin: 0 auto;
+}
+
+#newsletter {
+  position: relative;
+  top: 125px;
+}
+
+.newsletter-title {
+  text-transform: uppercase;
+  font-size: medium;
+  color: red;
+  font-weight: 700;
+}
 
 @media screen and (max-width: 768px) {
   .card {
