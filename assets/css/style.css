@@ -379,6 +379,20 @@ a {
   margin-top: -40px;
 }
 
+.main-footer .label {
+  font-weight: 700;
+  font-size: medium;
+}
+
+.footer-menu ul {
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(116, 112, 112);
+}
+
 @media screen and (max-width: 768px) {
   .card {
     position: relative;
