@@ -12,36 +12,39 @@
 </head>
 <body>
   <!-- Mobile and Tablet Navbar -->
-    <div class="container">
-        <div class="container-fluid" id="navigation">
-          <div class="row">
-            
+    <div class="container d-inline">
+      <div class="container-fluid" id="navigation">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <nav class="navbar navbar-expand-lg fixed-top d-lg-none" id="mobile-nav">
+              <a class="navbar-brand" href="https://https://www.newsweek.com/">
+                <img src="./assets/img/Newsweek_logo.svg" alt="logo">
+              </a>
+              <a href="#">
+                <i class="fa fa-user fa-lg" aria-hidden="true"></i>
+              </a>
+              <button class="btn-sm btn-warning first-button d-flex align-items-center">Subscribe<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </nav>
           </div>
-          <nav class="navbar navbar-expand-md d-inline d-lg-none fixed-top" id="mobile-nav">
-            <a class="navbar-brand" href="https://https://www.newsweek.com/">
-              <img src="./assets/img/Newsweek_logo.svg" alt="logo" width="110" height="55">
-            </a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#">
-              <span class="navbar-toggler-icon"></span>
-            </button> 
-            <i class="fa fa-user" aria-hidden=""></i>
-            <button class="btn btn-warning first-button">Subscribe</button>
-          </nav>
         </div>
+      </div>
     </div>
   <!-- First section -->
-  <div class="container-fluid">
+  <div class="container-fluid" id="top-story">
+    <h3 class="block-title">Top Story</h3>
     <div class="row">
       <div class="col-sm-12 col-md-6 col-lg-4">
-        <h3 class="block-title">Top Story</h3>
         <div class="card">
+          <div class="card-category">
+            <a href="#">Politics</a>
+          </div>
             <div class="card-image">
               <a href="#">
                 <img src="./assets/img/person-typing-backlit-keyboard.webp" alt="">
               </a>
-            </div>
-            <div class="card-category">
-              <a href="#">Politics</a>
             </div>
             <div class="card-content">
               <h4>Solar Winds, Probably Hacked by Russia, Serves White House, Pentagon, NASA</h4>

@@ -3,21 +3,9 @@
   padding: 0;
 }
 
-.selector-for-some-widget {
-  box-sizing: content-box;
-}
-
-.navbar {
-  background-color: rgb(245, 67, 2);
-  width: 100%;
-}
-
-#navigation .first-button {
-  color: rgb(5, 5, 5);
-  border-radius: 25%;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: medium;
+body {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
@@ -26,29 +14,74 @@ ul {
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+/* Navabar */
+
+#navigation {
+  max-width: 1310px;
+}
+
+#navigation .first-button {
+  color: rgb(5, 5, 5);
+  border-radius: 24px;
+  text-transform: uppercase;
+  font: bold 13px/24px "Roboto Condensed",sans-serif;
+  background-color: #ffe400;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#navigation a i {
+  color: grey;
+}
+
+.navbar {
+  background-color: #f72210;
+  box-sizing: border-box;
+  border: none;
+  width: 100%;
+}
+
+.navbar .navbar-brand img {
+  width: 120px;
+  height: 65px;
+  padding-left: 5px;
+}
+
+/* Top story */
+
+#top-story {
+  position: relative;
+  top: 60px;
 }
 
 .block-title {
   color: grey;
-  position: relative;
-  top: 80px;
   text-transform: uppercase;
   font-size: medium;
 }
 
+.card {
+  margin-top: -80px;
+}
+
 .card .card-image img {
   width: 100%;
-  float: right;
 }
 
 .card .card-category a {
+  position: absolute;
+  padding: 2px 7px 7px 1px;
+  margin-top: 10.1rem;
   background-color: rgb(196, 194, 194);
   font-size: large;
   font-weight: 600;
   text-decoration: none;
   text-transform: uppercase;
-  color: red;
-  float: left;
+  color: #f72210;
+  z-index: 1;
 }
 
 .card .card-category-sponsored a {
