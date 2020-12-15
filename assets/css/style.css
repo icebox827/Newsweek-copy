@@ -17,6 +17,12 @@ a {
   color: black;
 }
 
+.block-title {
+  color: grey;
+  text-transform: uppercase;
+  font-size: medium;
+}
+
 /* Navabar */
 
 #navigation {
@@ -57,14 +63,9 @@ a {
   top: 60px;
 }
 
-.block-title {
-  color: grey;
-  text-transform: uppercase;
-  font-size: medium;
-}
-
 .card {
   margin-top: -80px;
+  width: 100%;
 }
 
 .card .card-image img {
@@ -93,6 +94,42 @@ a {
   z-index: 1;
 }
 
+/* feature */
+
+#feature {
+  position: relative;
+  top: 150px;
+}
+.card-feature {
+  width: 100%;
+}
+
+.card-feature .card-image-feature img {
+  width: 100%;
+}
+
+.card-feature .card-category-feature a {
+  position: absolute;
+  padding: 1px 7px 7px 1px;
+  margin-top: 10.2rem;
+  background-color: rgb(196, 194, 194);
+  font-size: large;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f72210;
+  z-index: 1;
+}
+
+.card-feature .card-content-feature h4 {
+  padding-top: 10px;
+  font-weight: 800;
+}
+
+.card-feature .card-content-feature p {
+  font-size: small;
+}
+
 .card .card-category-sponsored a {
   background-color: rgb(196, 194, 194);
   font-size: large;
@@ -102,6 +139,8 @@ a {
   color: rgb(0, 132, 255);
   float: left;
 }
+
+/* Debate */
 
 .debate-image img {
   padding-top: 80px;
