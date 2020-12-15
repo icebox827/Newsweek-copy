@@ -372,10 +372,13 @@ a {
 
 .main-footer a img {
   width: 75%;
-  padding-left: 10px;
 }
 
-.
+.main-footer .copyright {
+  font-size: small;
+  margin-top: -40px;
+}
+
 @media screen and (max-width: 768px) {
   .card {
     position: relative;
