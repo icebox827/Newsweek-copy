@@ -89,6 +89,28 @@ a {
   text-align: center;
 }
 
+.story-wrapper img {
+  float: left;
+  width: 95px;
+  height: 95px;
+  margin-right: 10px;
+}
+
+.story-wrapper h4 {
+  font-size: medium;
+  font-weight: 700;
+  padding-top: 5px ;
+}
+
+.story-wrapper p {
+  font-size: small;
+}
+
+#more-story {
+  position: relative;
+  top: 90px;
+}
+
 @media screen and (max-width: 768px) {
   .card{
     position: relative;
