@@ -341,6 +341,41 @@ a {
   font-weight: 700;
 }
 
+.card-newsletter {
+  width: 100%;
+  border: 1px solid rgb(184, 181, 181);
+}
+
+.card-image-1 img {
+  width: 100%;
+}
+
+.card-content-1 h4 {
+  font-weight: 800;
+  font-size: large;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.card-content-1 p {
+  text-align: center;
+}
+
+.card-content-1 form {
+  
+}
+
+.main-footer {
+  position: relative;
+  top: 150px;
+}
+
+.main-footer a img {
+  width: 75%;
+  padding-left: 10px;
+}
+
+.
 @media screen and (max-width: 768px) {
   .card {
     position: relative;
