@@ -8,14 +8,16 @@
 }
 
 .navbar {
-  background-color: rgb(245, 76, 14);
+  background-color: rgb(245, 67, 2);
   width: 100%;
 }
 
-.btn .btn-warning {
-  color: yellow;
-  border-radius: 35%;
+#navigation .first-button {
+  color: rgb(5, 5, 5);
+  border-radius: 25%;
   text-transform: uppercase;
+  font-weight: 700;
+  font-size: medium;
 }
 
 ul {
