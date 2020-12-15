@@ -71,10 +71,19 @@ a {
   width: 100%;
 }
 
+.card .card-content h4 {
+  padding-top: 10px;
+  font-weight: 800;
+}
+
+.card .card-content p {
+  font-size: small;
+}
+
 .card .card-category a {
   position: absolute;
-  padding: 2px 7px 7px 1px;
-  margin-top: 10.1rem;
+  padding: 1px 7px 7px 1px;
+  margin-top: 10.2rem;
   background-color: rgb(196, 194, 194);
   font-size: large;
   font-weight: 600;
@@ -92,10 +101,6 @@ a {
   text-transform: uppercase;
   color: rgb(0, 132, 255);
   float: left;
-}
-
-.card .card-content p {
-  font-size: small;
 }
 
 .debate-image img {
@@ -455,18 +460,9 @@ a {
     width: 100%;
     top: 80px;
   }
-  
-  .card .summary-image {
-    float: left;
-  }
 
   .content a {
     font-size: large;
-    float: right;
-  }
-  
-  .summary p {
-    font-size: small;
     float: right;
   }
 
