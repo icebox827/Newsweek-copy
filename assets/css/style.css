@@ -215,6 +215,30 @@ a {
   margin-top: -10px;
 }
 
+.features-category {
+  text-transform: uppercase;
+  padding: 10px 20px 0 0;
+  font-weight: 700;
+}
+
+.features-category .feature-1 {
+  color: white;
+  background-color: red;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.features-category .feature-2 {
+  color: red;
+  padding-right: 10px;
+}
+
+.feature-text {
+  font-weight: 800;
+  font-size: small;
+  padding-top: 12px;
+}
+
 @media screen and (max-width: 768px) {
   .card {
     position: relative;
