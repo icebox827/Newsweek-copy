@@ -695,4 +695,18 @@ hr {
   #mobile-nav .toggle {
     padding-right: 8px;
   }
+
+  #mobile-nav .login-button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px){
+  #mobile-nav .login-button {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    background-color: inherit;
+  }
 }
