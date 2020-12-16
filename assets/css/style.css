@@ -731,8 +731,22 @@ hr {
     
   }
 
+  /* Newsletter */
+
+  #newsletter .card-image-1 img {
+    width: 100%;
+  }
+
+  #newsletter .card-content-1 {
+    width: 50%;
+  }
+
+  #newsletter .card-content-1 form {
+    padding-top: 25px;
+  }
+
+  /* footer */
   .main-footer a img {
     width: 40%;
   }
-
 }
