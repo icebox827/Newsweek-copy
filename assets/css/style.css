@@ -332,24 +332,17 @@ hr {
 }
 
 .card-culture .card-content-culture h4 {
+  padding-top: 10px;
+  padding-bottom: 20px;
   font-weight: 600;
   font-size: medium;
 }
 
-.culture-label img {
-  width: 100%;
-  margin-top: 10px;
-}
+/* special sponsored */
 
-.culture-label h4 {
-  background-color: grey;
-  color: rgb(48, 47, 47);
-  font-size: medium;
-  text-transform: uppercase;
-}
-
-.culture-label h5 {
-  font-size: small;
+#special-sponsored {
+  position: relative;
+  top: 120px;
 }
 
 .newsletter {
