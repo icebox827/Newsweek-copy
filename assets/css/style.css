@@ -127,7 +127,7 @@ hr {
 
 .card-feature .card-content-feature h4 {
   padding-top: 10px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .card-feature .card-content-feature p {
@@ -345,6 +345,21 @@ hr {
   top: 120px;
 }
 
+/* Newsletter form */
+
+#newsletter-form {
+  position: relative;
+  top: 140px;
+}
+
+.newsletter-form {
+  position: relative;
+  width: 80%;
+  top: 110px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
 /* Newsletter */
 
 #newsletter {
@@ -369,9 +384,11 @@ hr {
   margin: 10px;
 }
 
+/* Magazine */
+
 #magazine {
   position: relative;
-  top: 140px;
+  top: 120px;
 }
 
 #magazine img {
@@ -382,20 +399,24 @@ hr {
   text-transform: uppercase;
   font-size: medium;
   color: red;
-  padding-left: 20px;
-  margin-bottom: 30px;
+  padding-left: 15px;
+  margin-bottom: 20px;
 }
 
 .magazine-title {
   color: rgb(68, 68, 68);
   font-weight: 700;
+  font-size: medium;
   text-align: center;
   text-transform: uppercase;
+  padding-bottom: 15px;
 }
+
+/*All features */
 
 #all-features {
   position: relative;
-  top: 125px;
+  top: 105px;
 }
 
 #all-features h3 {
@@ -403,7 +424,7 @@ hr {
   text-align: center;
   font-size: medium;
   font-weight: 800;
-  color: rgb(65, 64, 64);
+  color: rgb(7, 7, 7);
   background-color: rgb(199, 195, 195);
   box-sizing: border-box;
   padding: 10px;
@@ -437,6 +458,8 @@ hr {
   font-size: small;
   padding-top: 12px;
 }
+
+/* Editors*/
 
 #editors-pick {
   position: relative;
