@@ -424,7 +424,8 @@ hr {
   margin-bottom: 20px;
 }
 
-.magazine-title {
+#magazine .magazine-title {
+  margin: 0 auto;
   color: rgb(68, 68, 68);
   font-weight: 700;
   font-size: medium;
@@ -432,6 +433,14 @@ hr {
   text-transform: uppercase;
   padding-bottom: 15px;
 }
+
+#magazine .magazine-title img {
+  position: relative;
+  width: 30px;
+  float: left;
+  left: 55px;
+}
+
 
 /*All features */
 
