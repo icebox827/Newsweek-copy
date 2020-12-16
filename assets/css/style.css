@@ -390,21 +390,6 @@ hr {
   border-radius: 3px;
 }
 
-/* Newsletter */
-
-#newsletter {
-  position: relative;
-  top: 140px;
-}
-
-.newsletter {
-  position: relative;
-  width: 80%;
-  top: 110px;
-  border: 1px solid black;
-  margin: 0 auto;
-}
-
 /* Magazine */
 
 #magazine {
@@ -517,6 +502,7 @@ hr {
 
 #subscription {
   position: relative;
+  height: auto;
   top: 125px;
 }
 
@@ -563,12 +549,22 @@ hr {
 }
 
 #subscription .sub-images .second-button {
-  margin: 0 auto;
+  position: relative;
+  color: white  ;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font: bold 13px/24px "Roboto Condensed",sans-serif;
+  background-color: #f72210;
+  margin-bottom: 30px;
+  left: 95px;
 }
+
+/* Newsletter */
 
 #newsletter {
   position: relative;
   top: 125px;
+  height: auto;
 }
 
 .newsletter-title {
@@ -587,6 +583,10 @@ hr {
   width: 100%;
 }
 
+.card-content-1 {
+  padding-bottom: 25px;
+}
+
 .card-content-1 h4 {
   font-weight: 800;
   font-size: large;
@@ -598,9 +598,35 @@ hr {
   text-align: center;
 }
 
+#newsletter .card-content-1 .news-text {
+  width: 45%;
+  margin-left: 15px;
+  padding: 5px 0 5px 5px;
+}
+
+#newsletter .card-content-1 .news-submit {
+  width: 45%;
+  padding: 5px 5px 5px 0;
+  color: white;
+  background-color: #f72210;
+}
+
+/* Footer */
+
 .main-footer {
   position: relative;
   top: 150px;
+}
+
+.main-footer .social li {
+  align-content: flex-start;
+  color: grey;
+}
+
+.main-footer .social li a {
+  align-content: flex-start;
+  color: grey;
+  margin-left: -75px;
 }
 
 .main-footer a img {
@@ -638,12 +664,15 @@ hr {
 
 .footer-link ul {
   list-style: none;
+  margin-left: -25px;
 }
 
-.link a {
+.main-footer .link li a {
   text-decoration: none;
   color: rgb(116, 112, 112);
   font-size: small;
+  padding-right: 15px;
+  align-items: flex-start;
 }
 
 @media screen and (max-width: 768px) {
