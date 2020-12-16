@@ -767,8 +767,13 @@ hr {
   #top-story {
     position: relative;
     top: 10rem;
-    
   }
+
+  #top-story .card {
+    position: relative;
+    left: 23.5rem;
+  }
+
 
   /* Newsletter */
 
