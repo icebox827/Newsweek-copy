@@ -513,6 +513,8 @@ hr {
   left: 55px;
 }
 
+/* Subscribe */
+
 #subscription {
   position: relative;
   top: 125px;
@@ -524,6 +526,7 @@ hr {
   color: red;
   font-weight: 700;
 }
+
 .sub-images {
   position: relative;
   margin: 0 auto;
@@ -559,7 +562,7 @@ hr {
   
 }
 
-.sub-images button {
+#subscription .sub-images .second-button {
   margin: 0 auto;
 }
 
@@ -593,10 +596,6 @@ hr {
 
 .card-content-1 p {
   text-align: center;
-}
-
-.card-content-1 form {
-  
 }
 
 .main-footer {
