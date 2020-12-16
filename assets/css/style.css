@@ -723,4 +723,20 @@ hr {
     position: relative;
     left: 12rem;
   }
+
+  /* top story tablet version */
+  #top-story {
+    position: relative;
+    top: 10rem;
+    
+  }
+
+  .main-footer a img {
+    width: 40%;
+  }
+
+  .copyright {
+    display: inline;
+  }
+
 }
