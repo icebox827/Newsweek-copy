@@ -345,6 +345,13 @@ hr {
   top: 120px;
 }
 
+/* Newsletter */
+
+#newsletter {
+  position: relative;
+  top: 140px;
+}
+
 .newsletter {
   position: relative;
   width: 80%;
