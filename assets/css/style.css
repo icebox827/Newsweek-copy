@@ -709,4 +709,18 @@ hr {
     font-weight: bold;
     background-color: inherit;
   }
+
+  #mobile-nav .toggle {
+    padding-right: 20px;
+  }
+
+  #mobile-nav .first-button {
+    position: relative;
+    left: 90px;
+  }
+
+  #mobile-nav .login-button {
+    position: relative;
+    left: 12rem;
+  }
 }
