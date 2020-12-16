@@ -496,39 +496,21 @@ hr {
   top: 125px;
 }
 
-.editors-title {
-  text-transform: uppercase;
+#editors-pick .editors-title {
+  margin: 0 auto;
+  color: rgb(68, 68, 68);
   font-weight: 700;
   font-size: medium;
   text-align: center;
-}
-
-.editors-image  img {
-  width: 100%;
-}
-
-.editors-category {
   text-transform: uppercase;
-  font-size: medium;
-  font-weight: 700;
+  padding-bottom: 15px;
 }
 
-.editors-category .editors-caption {
-  color: red;
-  background-color: rgb(216, 204, 204);
-  box-sizing: border-box;
-  padding: 5px;
-  z-index: 1;
-}
-
-.editors-text .editors-head {
-  font-weight: 800;
-  font-size: medium;
-}
-
-.editors-text .editors-content {
-  font-size: small;
-  font-weight: 400;
+#editors-pick .editors-title img {
+  position: relative;
+  width: 30px;
+  float: left;
+  left: 55px;
 }
 
 #subscription {
