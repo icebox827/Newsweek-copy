@@ -675,7 +675,7 @@ hr {
   align-items: flex-start;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .card {
     position: relative;
     display: block;
@@ -689,6 +689,10 @@ hr {
   }
 
   #mobile-nav {
-    max-width: 768px;
+    max-width: 767px;
+  }
+
+  #mobile-nav .toggle {
+    padding-right: 8px;
   }
 }
