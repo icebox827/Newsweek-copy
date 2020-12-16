@@ -60,6 +60,20 @@ hr {
   padding-left: 5px;
 }
 
+#navigation-wide {
+  max-width: 1310px;
+  position: absolute;
+  background-color: #f72210;
+}
+
+#navigation-wide .location li {
+  color: white;
+  padding-top: 15px;
+}
+
+#navigation-wide .logo img {
+  height: 100px;
+}
 /* Top story */
 
 #top-story {
@@ -699,9 +713,13 @@ hr {
   #mobile-nav .login-button {
     display: none;
   }
+
+  #navigation-wide {
+    display: none;
+  }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 991px){
   #mobile-nav .login-button {
     color: white;
     text-decoration: none;
@@ -722,6 +740,10 @@ hr {
   #mobile-nav .login-button {
     position: relative;
     left: 12rem;
+  }
+
+  #navigation-wide {
+    display: none;
   }
 
   /* top story tablet version */
