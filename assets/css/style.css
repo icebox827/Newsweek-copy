@@ -122,6 +122,7 @@ li a {
 }
 
 .features .wrap .wrap-content h4 {
+  font-size: medium;
   padding-top: 10px;
   font-weight: 700;
 }
@@ -159,7 +160,7 @@ li a {
 }
 
 .top-story .wrap .wrap-content p {
-  font-size: small;
+  font-size: large;
 }
 
 /* debates */
@@ -248,6 +249,7 @@ li a {
 }
 
 .features .wrap .wrap-sponsored-content h4 {
+  font-size: medium;
   padding-top: 10px;
   font-weight: 800;
 }
@@ -279,7 +281,7 @@ li a {
 .top-story .wrap .turn-content h4 {
   width: 85%;
   color: grey;
-  font-size: medium;
+  font-size: large;
   margin-top: 10px;
 }
 
@@ -307,5 +309,24 @@ li a {
   padding-top: 10px;
   padding-bottom: 20px;
   font-weight: 600;
+  font-size: large;
+}
+
+/* More stories */
+
+.top-story .wrap .stories img {
+  float: left;
+  width: 115px;
+  height: 115px;
+  margin-right: 10px;
+}
+
+.top-story .wrap .stories h4 {
+  font-size: large;
+  font-weight: 700;
+  padding-top: 5px ;
+}
+
+.top-story .wrap .stories p {
   font-size: medium;
 }
