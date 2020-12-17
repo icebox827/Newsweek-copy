@@ -502,3 +502,48 @@ font-size: medium;
   font-size: large;
   padding-top: 12px;
 }
+
+/* Editors Pick */
+
+.wrap .editors-title {
+    margin: 0 auto;
+}
+
+.wrap .editors-title h4 {
+  margin: 0 auto;
+  color: rgb(68, 68, 68);
+  font-weight: 00;
+  font-size: medium;
+  text-align: center;
+  text-transform: uppercase;
+}
+  
+.wrap .editors-title img {
+  width: 30px;
+}
+
+.wrap .editors-image img {
+  width: 100%;
+}
+
+.wrap .editors-category a{
+  position: absolute;
+  padding: 1px 7px 7px 1px;
+  margin-top: 10.5rem;
+  background-color: rgb(196, 194, 194);
+  font-size: large;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f72210;
+  z-index: 1;
+}
+
+.wrap .editors-content h4 {
+  padding-top: 10px;
+  font-weight: 700;
+}
+
+.wrap .editors-content p {
+  font-size: small;
+}
