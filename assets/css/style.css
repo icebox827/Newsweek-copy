@@ -256,7 +256,7 @@ li a {
   font-size: small;
 }
 
-.features .wrap .wrap-sponsored-category {
+.features .wrap .wrap-sponsored-category a {
   position: absolute;
   padding: 1px 7px 7px 1px;
   margin-top: 10.5rem;
@@ -271,14 +271,41 @@ li a {
 
 /* My turn */
 
-.top-story .wrap .wrap-turn-image img {
+.top-story .wrap .turn-image img {
   width: 85%;
   margin-top: 10px;
 }
 
-.top-story .wrap .wrap-turn-content h4 {
+.top-story .wrap .turn-content h4 {
   width: 85%;
   color: grey;
   font-size: medium;
   margin-top: 10px;
+}
+
+/* Culture & Travel */
+
+.top-story .wrap .culture-image img {
+  width: 85%;
+}
+
+.top-story .wrap .culture-category a {
+  position: absolute;
+  padding: 1px 5px 5px 1px;
+  margin-top: 7.5rem;
+  background-color: rgb(196, 194, 194);
+  font-size: large;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2c2c2c;
+  z-index: 1;
+}
+
+.top-story .wrap .culture-content h4 {
+  width: 85%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-size: medium;
 }
