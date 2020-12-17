@@ -547,3 +547,33 @@ font-size: medium;
 .wrap .editors-content p {
   font-size: small;
 }
+
+/* pick */
+
+.pick-title h3 {
+ color: #f72210;
+ font-size: large;
+ font-weight: bold;
+}
+
+.wrap .pick-image img {
+  width: 100%;
+}
+
+.wrap .pick-image-1 img {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+
+.wrap .pick-content h4 {
+  font-weight: 800;
+  font-size: large;
+}
+
+.wrap .pick-content-1 h4 {
+  font-weight: bold;
+  font-size: medium;
+}
+
+
