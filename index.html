@@ -11,157 +11,330 @@
   <title>Newsweek</title>
 </head>
 <body>
-  <!-- Mobile and Tablet Navbar -->
-    <div class="container d-inline">
-      <div class="container-fluid" id="navigation">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12">
-            <nav class="navbar navbar-expand-lg fixed-top d-lg-none" id="mobile-nav">
-              <a class="navbar-brand" href="https://https://www.newsweek.com/">
-                <img src="./assets/img/Newsweek_logo.svg" alt="logo">
-              </a>
-              <a href="#">
-                <i class="fa fa-user fa-lg d-md-none" aria-hidden="true"></i>
-              </a>
-              <button class="btn btn-link login-button">Login</button>
-              <button class="btn-sm btn-warning first-button d-flex align-items-center">Subscribe<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
-              <a href="#">
-                <i class="fa fa-bars fa-lg toggle" aria-hidden="true"></i>
-              </a>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
-  <!-- Desktop Navabar-->
-  <div class="container-fluid fixed-top" id="navigation-wide">
+  <!-- Wide Navbar-->
+  <div class="container-fluid" id="wide-nav">
     <div class="row">
       <div class="col-4">
         <ul class="location">
-          <li>29, Haiti</li>
+          <li><img src="./assets/img/34.webp" alt="cloud">29 null, HT</li>
           <li>Wed, Dec 16, 2020</li>
         </ul>
       </div>
-      <div class="col-4 logo">
-        <img src="./assets/img/Newsweek_Logo.svg" alt="">
+      <div class="col-4 d-flex justify-content-center">
+        <a href="https://newsweek.com"><img src="./assets/img/Newsweek_Logo.svg" alt="logo"></a>
       </div>
       <div class="col-4">
-        <ul class="nav-button d-flex align-items-end">
-          <li><button class="btn btn-link login-button">Login</button>
-          </li>
-          <li><button class="btn-sm btn-warning first-button d-flex align-items-center">Subscribe<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
-          </li>
+        <ul class="nav-button d-flex justify-content-end">
+          <li><button class="btn btn-link login-button">Login</button></li>
+          <li><button class="btn btn-warnig submit-button">subscribe<i class="fa fa-chevron-right"></i></button></li>
         </ul>
       </div>
     </div>
   </div>
-  <!-- First section -->
-  <div class="container-fluid" id="top-story">
-    
+  <div class="container-fluid" id="main-nav">
     <div class="row">
-      <div class="col-sm-12 col-md-6 order-2 col-lg-4">
-        <div class="card">
-          <h3 class="block-title">Top Story</h3>
-          <div class="card-category">
-            <a href="#">Politics</a>
-          </div>
-            <div class="card-image">
+      <nav class="navbar navbar-expand-lg"> 
+        <ul class="navbar-nav main-nav d-flex justify-content-between">
+          <li class="nav-link">
+            <a class="nav-item" href="">U.S</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-item" href="">World</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-item" href="">Business</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-item" href="">Tech & Science</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-item" href="">Culture</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-item" href="">Newsgeek</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-item" href="">Sports</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-item" href="">Health</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-item" href="">The Debate</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-item" href="">Vantage</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-item" href="">Wheater</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-item" href="">
+              <input class="search" type="search" placeholder="Search"><i class="fa fa-search"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div><hr>
+  </div>
+  <div class="container-fluid" id="second-nav">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg"> 
+        <ul class="navbar-nav main-nav d-flex justify-content-between">
+          <li class="nav-link">
+            <a class="nav-item" href="">Trending</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-item" href="">Joe Biden</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-item" href="">Donald Trump</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-item" href="">Coronavirus</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-item" href="">Stimulus package</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-item" href="">Vaccine</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!-- First Block -->
+  <div class="container-fluid" id="main">
+    <div class="row">
+      <!-- Left column-->
+      <div class="col-lg-3 features">
+        <!-- Features -->
+        <div class="block-title">Features stories</div>
+        <article>
+          <div class="wrap">
+            <div class="wrap-category">
+              <a href="#">U.S</a>
+            </div>
+            <div class="wrap-image">
               <a href="#">
-                <img src="./assets/img/person-typing-backlit-keyboard.webp" alt="">
+                <img src="./assets/img/bill-de-blasio.webp" alt="">
               </a>
             </div>
-            <div class="card-content">
-              <h4>Solar Winds, Probably Hacked by Russia, Serves White House, Pentagon, NASA</h4>
-              <p>"This is a huge cyber espionage campaign targeting the U.S. government and its interests," said one source familiar with the matter.</p>
+            <div class="wrap-content">
+              <h4>NYC Mayor Bill de Blasio Warns of Possible 'Full Shutdown' Due to COVID</h4>
+              <p>"Now we're seeing the kind of level of infection that we haven't seen since May," the mayor said.</p>
             </div>
+          </div>
+        </article>
+        <article>
+          <div class="wrap">
+            <div class="wrap-category">
+              <a href="#">Tech & Science</a>
+            </div>
+            <div class="wrap-image">
+              <a href="#">
+                <img src="./assets/img/fe-quantum-banner.webp" alt="">
+              </a>
+            </div>
+            <div class="wrap-content">
+              <h4>As China Leads Quantum Race, U.S. Spies Plan for a World with Fewer Secrets</h4>
+              <p>Will we wake up one day and find that China has been reading our mail? Losing our technological edge could have major security implications for the U.S.</p>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="wrap">
+            <div class="wrap-category">
+              <a href="#">World</a>
+            </div>
+            <div class="wrap-image">
+              <a href="#">
+                <img src="./assets/img/robert-bob-levinson-iran-kidnapping.webp" alt="">
+              </a>
+            </div>
+            <div class="wrap-content">
+              <h4>US Names Two Iranians Blamed for Ex-FBI Agent's Disappearance, Likely Death</h4>
+              <p>"This is just one step in a long road toward achieving justice for him, but it is an important one," Robert Levinson's family said in a statement sent to Newsweek.</p>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="wrap">
+            <div class="wrap-category">
+              <a href="#">U.S</a>
+            </div>
+            <div class="wrap-image">
+              <a href="#">
+                <img src="./assets/img/kelly-loeffler-david-perdue-georgia-list-voters.webp" alt="">
+              </a>
+            </div>
+            <div class="wrap-content">
+              <h4>Loeffler, Purdue Demand List of Georgia Voters as Early Voting Begins</h4>
+              <p>Loeffler and Perdue said the "lack of transparency" from Georgia Secretary of State Brad Raffensperger's office threatened the "integrity of our elections."</p>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="wrap">
+            <div class="wrap-category">
+              <a href="#">U.S</a>
+            </div>
+            <div class="wrap-image">
+              <a href="#">
+                <img src="./assets/img/trump-playing-golf-virginia-sunday.jpg" alt="">
+              </a>
+            </div>
+            <div class="wrap-content">
+              <h4>Trump's Delay to White House Vaccine Raises National Security Questions</h4>
+              <p>The first U.S. shipments of the Pfizer vaccine are set to arrive at 145 sites across the country on Monday, expected to be for hospital staff and care home workers.</p>
+            </div>
+        </article>
+        <!-- Sponsored and rankings-->
+        <div class="content">
+          <div class="wrap">
+            <div class="wrap-sponsored-category">
+              <a href="#">
+                <a href="#">Sponsored insight</a>
+              </a>
+            </div>
+            <div class="wrap-sponsored-image">
+              <a href="#">
+                <img src="https://d.newsweek.com/en/full/1677219/nord-anglia-international-school-hong-kong.jpg?w=500&h=333&f=9e465477deaf0c3a131b5eb239dd9769" alt="">
+              </a>
+            </div>
+            <div class="wrap-sponsored-content">
+              <h4>What Makes International Schools so Special?</h4>
+              <p>One of the single most important decisions you make for your child is whom to entrust with their education. See why so many parents are turning to International Schools.</p>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="wrap">
+            <div class="wrap-sponsored-category">
+              <a href="#">
+                <a href="#">Sponsored insight</a>
+              </a>
+            </div>
+            <div class="wrap-sponsored-image">
+              <a href="#">
+                <img src="https://d.newsweek.com/en/full/1668840/moreland.png?w=500&h=333&f=ae236a69f0a1b702ec5ddeed2bf308cb" alt="">
+              </a>
+            </div>
+            <div class="wrap-sponsored-content">
+              <h4>Would You Like a Career That Will Make a Real Difference?</h4>
+              <p>Stop thinking about being a teacher and get started on your path to one of the most rewarding careers in the world. Find out where to get qualified.</p>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="wrap">
+            <div class="wrap-sponsored-category">
+              <a href="#">
+                <a href="#">Sponsored insight</a>
+              </a>
+            </div>
+            <div class="wrap-sponsored-image">
+              <a href="#">
+                <img src="https://d.newsweek.com/en/full/1664734/corvinus-university-budapest.jpg?w=500&h=333&f=e9701eaf37429abd46c646d3193e585c" alt="">
+              </a>
+            </div>
+            <div class="wrap-sponsored-content">
+              <h4>Why is an EQUIS Accreditation Important for a Business School?</h4>
+              <p>With over 15,000 business schools worldwide, it is increasingly difficult for prospective students, executives, corporate partners and other stakeholders to recognize a quality institution. That’s where an EQUIS Accreditation comes in. Find out more.</p>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="wrap">
+            <div class="wrap-sponsored-category">
+              <a href="#">
+                <a href="#">Sponsored insight</a>
+              </a>
+            </div>
+            <div class="wrap-sponsored-image">
+              <a href="#">
+                <img src="https://d.newsweek.com/en/full/1661945/unlv-school-public-health.jpg?w=500&h=333&f=d069fecbd3753e19225cf6c1c378ed25" alt="">
+              </a>
+            </div>
+            <div class="wrap-sponsored-content">
+              <h4>Which Schools Have the Best Healthcare Programs?</h4>
+              <p>If you are thinking about a career in Healthcare, you will want to start with the best qualifications from the top schools. Which ones are at the cutting edge?</p>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="wrap">
+            <div class="wrap-sponsored-category">
+              <a href="#">
+                <a href="#">rankings</a>
+              </a>
+            </div>
+            <div class="wrap-sponsored-image">
+              <a href="#">
+                <img src="https://d.newsweek.com/en/full/1680316/americas-most-responsible-companies-2021.png?w=500&h=333&f=ae10b886f06d2f293296bc4d2f90dda0" alt="">
+              </a>
+            </div>
+            <div class="wrap-sponsored-content">
+              <h4>America's Most Responsible Companies 2021</h4>
+              <p>We partnered with Statista to rank the country's Most Responsible Companies. They share the values that we all prioritize, and that's worth recognizing in 2021</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- Feature section -->
-  <div class="container-fluid mt-4" id="feature">
-    <h3 class="block-title">Featured Stories</h3>
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-4">
-        <div class="card-feature">
-          <div class="card-category-feature">
-            <a href="#">U.S</a>
+      <!-- Middle column-->
+      <div class="col-lg-5 top-story">
+        <div class="block-title">Top Story</div>
+        <article>
+          <div class="wrap">
+            <div class="wrap-category">
+              <a href="#">Politics</a>
+            </div>
+              <div class="wrap-image">
+                <a href="#">
+                  <img src="./assets/img/person-typing-backlit-keyboard.webp" alt="">
+                </a>
+              </div>
+              <div class="wrap-content">
+                <h4>Solar Winds, Probably Hacked by Russia, Serves White House, Pentagon, NASA</h4>
+                <p>"This is a huge cyber espionage campaign targeting the U.S. government and its interests," said one source familiar with the matter.</p>
+              </div>
           </div>
-          <div class="card-image-feature">
-            <a href="#">
-              <img src="./assets/img/bill-de-blasio.webp" alt="">
-            </a>
+        </article>
+        <!-- My turn -->
+        <div class="block-title">My turn</div>
+        <div class="content d-flex justify-content-center">
+          <div class="wrap">
+            <div class="wrap-turn-image">
+              <img src="./assets/img/joe-biden-rescue-dogs-major-delaware.jpg" alt="">    
+            </div>
+            <div class="wrap-turn-content">
+              <h4>'Joe Biden Adopted The White House's First Rescue Dog From Us'</h4>
+            </div>
           </div>
-          <div class="card-content-feature">
-            <h4>NYC Mayor Bill de Blasio Warns of Possible 'Full Shutdown' Due to COVID</h4>
-            <p>"Now we're seeing the kind of level of infection that we haven't seen since May," the mayor said.</p>
+          <div class="wrap">
+            <div class="wrap-turn-image">
+              <img src="./assets/img/covid-19-coronavirus-vaccine-death-family.jpg" alt="">    
+            </div>
+            <div class="wrap-turn-content">
+              <h4>'My Dad Got the COVID Vaccine Days After My Mom Died With the Virus'</h4>
+            </div>
           </div>
-        </div>
-        <div class="card-feature">
-          <div class="card-category-feature">
-            <a href="#">Tech & Science</a>
-          </div>
-          <div class="card-image-feature">
-            <a href="#">
-              <img src="./assets/img/fe-quantum-banner.webp" alt="">
-            </a>
-          </div>
-          <div class="card-content-feature">
-            <h4>As China Leads Quantum Race, U.S. Spies Plan for a World with Fewer Secrets</h4>
-            <p>Will we wake up one day and find that China has been reading our mail? Losing our technological edge could have major security implications for the U.S.</p>
-          </div>
-        </div>
-        <div class="card-feature">
-          <div class="card-category-feature">
-            <a href="#">World</a>
-          </div>
-          <div class="card-image-feature">
-            <a href="#">
-              <img src="./assets/img/robert-bob-levinson-iran-kidnapping.webp" alt="">
-            </a>
-          </div>
-          <div class="card-content-feature">
-            <h4>US Names Two Iranians Blamed for Ex-FBI Agent's Disappearance, Likely Death</h4>
-            <p>"This is just one step in a long road toward achieving justice for him, but it is an important one," Robert Levinson's family said in a statement sent to Newsweek.</p>
+          <div class="wrap">
+            <div class="wrap-turn-image">
+              <img src="./assets/img/iraq-iraq-war-jewish-christian.jpg" alt="">    
+            </div>
+            <div class="wrap-turn-content">
+              <h4>I'm Jewish. Here's How a Christian Pastor Helped Me Through The Iraq War'</h4>
+            </div>
           </div>
         </div>
-        <div class="card-feature">
-          <div class="card-category-feature">
-            <a href="#">U.S</a>
-          </div>
-          <div class="card-image-feature">
-            <a href="#">
-              <img src="./assets/img/kelly-loeffler-david-perdue-georgia-list-voters.webp" alt="">
-            </a>
-          </div>
-          <div class="card-content-feature">
-            <h4>Loeffler, Purdue Demand List of Georgia Voters as Early Voting Begins</h4>
-            <p>Loeffler and Perdue said the "lack of transparency" from Georgia Secretary of State Brad Raffensperger's office threatened the "integrity of our elections."</p>
-          </div>
-        </div>
-        <div class="card-feature">
-          <div class="card-category-feature">
-            <a href="#">U.S</a>
-          </div>
-          <div class="card-image-feature">
-            <a href="#">
-              <img src="./assets/img/trump-playing-golf-virginia-sunday.jpg" alt="">
-            </a>
-          </div>
-          <div class="card-content-feature">
-            <h4>Trump's Delay to White House Vaccine Raises National Security Questions</h4>
-            <p>The first U.S. shipments of the Pfizer vaccine are set to arrive at 145 sites across the country on Monday, expected to be for hospital staff and care home workers.</p>
-          </div>
-        </div>
+        <!-- Culture & Travel -->
+        <div class="block-title">Culture & Travel</div>
       </div>
-    </div>
-  </div>
-  <!-- Debate section -->
-  <div class="container-fluid mt-4" id="debate">
-    <h3 class="block-title">The Debates</h3>
-    <hr>
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-4">
+      <!-- Right column -->
+      <div class="col-lg-4 debate">
+        <div class="block-title">The debates</div>
+        <hr>
         <div class="debate-wrapper">
           <img src="./assets/img/rr-reno.png" alt="">
           <h4>Nationalism and Populism Are the GOP's Future</h4>
@@ -174,14 +347,7 @@
           <p>By<span class="debate-signature">Charles C.W. Cooke</span></p>
         </div>
         <hr>
-      </div>
-    </div>
-  </div>
-  <!-- opinion section -->
-  <div class="container-fluid mt-4" id="opinion">
-    <h3 class="block-title">Opinion</h3>
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="block-title">opinion</div>
         <div class="opinion-wrapper">
           <img src="./assets/img/michael-medved.webp" alt="">
           <h4>Fakhrizadeh and Soleimani Were Even More Justified Killings Than bin Laden</h4>
@@ -220,645 +386,6 @@
       </div>
     </div>
   </div>
-  <!-- Sponsored & Rankings-->
-  <div class="container-fluid mt-4" id="sponsored-rankings">
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-4">
-        <div class="card-sponsored">
-          <div class="card-category-sponsored">
-            <a href="#">Sponsored insight</a>
-          </div>
-          <div class="card-image-sponsored">
-            <a href="#">
-              <img src="https://d.newsweek.com/en/full/1677219/nord-anglia-international-school-hong-kong.jpg?w=500&h=333&f=9e465477deaf0c3a131b5eb239dd9769" alt="">
-            </a>
-          </div>
-          <div class="card-content-sponsored">
-            <h4>What Makes International Schools so Special?</h4>
-            <p>One of the single most important decisions you make for your child is whom to entrust with their education. See why so many parents are turning to International Schools.</p>
-          </div>
-        </div>
-        <div class="card-sponsored">
-          <div class="card-category-sponsored">
-            <a href="#">Sponsored insight</a>
-          </div>
-          <div class="card-image-sponsored">
-            <a href="#">
-              <img src="https://d.newsweek.com/en/full/1668840/moreland.png?w=500&h=333&f=ae236a69f0a1b702ec5ddeed2bf308cb" alt="">
-            </a>
-          </div>
-          <div class="card-content-sponsored">
-            <h4>Would You Like a Career That Will Make a Real Difference?</h4>
-            <p>Stop thinking about being a teacher and get started on your path to one of the most rewarding careers in the world. Find out where to get qualified.</p>
-          </div>
-        </div>
-        <div class="card-sponsored">
-          <div class="card-category-sponsored">
-            <a href="#">Sponsored insight</a>
-          </div>
-          <div class="card-image-sponsored">
-            <a href="#">
-              <img src="https://d.newsweek.com/en/full/1664734/corvinus-university-budapest.jpg?w=500&h=333&f=e9701eaf37429abd46c646d3193e585c" alt="">
-            </a>
-          </div>
-          <div class="card-content-sponsored">
-            <h4>Why is an EQUIS Accreditation Important for a Business School?</h4>
-            <p>With over 15,000 business schools worldwide, it is increasingly difficult for prospective students, executives, corporate partners and other stakeholders to recognize a quality institution. That’s where an EQUIS Accreditation comes in. Find out more.</p>
-          </div>
-        </div>
-        <div class="card-sponsored">
-          <div class="card-category-sponsored">
-            <a href="#">Sponsored insight</a>
-          </div>
-          <div class="card-image-sponsored">
-            <a href="#">
-              <img src="https://d.newsweek.com/en/full/1661945/unlv-school-public-health.jpg?w=500&h=333&f=d069fecbd3753e19225cf6c1c378ed25" alt="">
-            </a>
-          </div>
-          <div class="card-content-sponsored">
-            <h4>Which Schools Have the Best Healthcare Programs?</h4>
-            <p>If you are thinking about a career in Healthcare, you will want to start with the best qualifications from the top schools. Which ones are at the cutting edge?</p>
-          </div>
-        </div>
-        <div class="card-sponsored">
-          <div class="card-category-sponsored">
-            <a href="#">Rankings</a>
-          </div>
-          <div class="card-image-sponsored">
-            <a href="#">
-              <img src="https://d.newsweek.com/en/full/1680316/americas-most-responsible-companies-2021.png?w=500&h=333&f=ae10b886f06d2f293296bc4d2f90dda0" alt="">
-            </a>
-          </div>
-          <div class="card-content-sponsored">
-            <h4>America's Most Responsible Companies 2021</h4>
-            <p>We partnered with Statista to rank the country's Most Responsible Companies. They share the values that we all prioritize, and that's worth recognizing in 2021</p>
-          </div>
-        </div>
-        <div class="card-sponsored">
-          <div class="card-category-sponsored">
-            <a href="#">Rankings</a>
-          </div>
-          <div class="card-image-sponsored">
-            <a href="#">
-              <img src="https://d.newsweek.com/en/full/1666606/best-stem-2021.png?w=500&h=333&f=880298d0d01b4e21f850884f426ebeba" alt="">
-            </a>
-          </div>
-          <div class="card-content-sponsored">
-            <h4>Best in STEM 2021</h4>
-            <p>Meet the toymakers and brands who are lending a helping hand to science, technology, engineering and math (STEM) education.</p>
-          </div>
-        </div>
-        <div class="card-sponsored">
-          <div class="card-category-sponsored">
-            <a href="#">Rankings</a>
-          </div>
-          <div class="card-image-sponsored">
-            <a href="#">
-              <img src="https://d.newsweek.com/en/full/1648617/americas-best-banks-2021.png?w=500&h=333&f=74c82cc715af044c22cf4532a60c043f" alt="">
-            </a>
-          </div>
-          <div class="card-content-sponsored">
-            <h4>America's Best Banks 2021</h4>
-            <p>Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- More stories -->
-  <div class="container-fluid mt-4" id="more-story">
-    <h3 class="block-title mt-4">more Stories</h3><hr>
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-4">
-          <div class="story-wrapper">
-            <img src="./assets/img/b-52-nuclear-bomber-over-nyc-july-4.webp" alt="">
-            <h4>Iran Threatens 'Fiery Response' after U.S. Nuclear Bomber Flight</h4>
-            <p>Two U.S. B-52H bombers flew close to Iranian airspace last week in a round-trip show of force mission from Louisiana to the Middle East.</p>
-          </div><hr>
-          <div class="story-wrapper">
-            <img src="./assets/img/covid-19-coronavirus-vaccine-death-family.jpg" alt="">
-            <h4>'New Variant' of COVID That Spreads Rapidly Found in South of England</h4>
-            <p>Britain's health secretary said the new type of COVID-19 has been discovered predominantly in the south of England as he announced a swathe of new restrictions for London and surrounding areas.</p>
-          </div><hr>
-          <div class="story-wrapper">
-            <img src="./assets/img/bill-de-blasio.webp" alt="">
-            <h4>NYC Mayor Bill de Blasio Warns of Possible 'Full Shutdown' Due to COVID</h4>
-            <p>"Now we're seeing the kind of level of infection that we haven't seen since May," the mayor said.</p>
-          </div><hr>
-          <div class="story-wrapper">
-            <img src="./assets/img/robert-bob-levinson-iran-kidnapping.webp" alt="">
-            <h4>US Names Two Iranians Blamed for Ex-FBI Agent's Disappearance, Likely Death</h4>
-            <p>"This is just one step in a long road toward achieving justice for him, but it is an important one," Robert Levinson's family said in a statement sent to Newsweek.</p>
-          </div><hr>
-          <div class="story-wrapper">
-            <img src="./assets/img/fe-quantum-banner.webp" alt="">
-            <h4>As China Leads Quantum Race, U.S. Spies Plan for a World with Fewer Secrets</h4>
-            <p>Will we wake up one day and find that China has been reading our mail? Losing our technological edge could have major security implications for the U.S.</p>
-          </div><hr>
-          <div class="story-wrapper">
-            <img src="./assets/img/steven-mnuchin-currently-negotiating-another-bill.webp" alt="">
-            <h4>Perdue Bemoans 'Out of State' Cash in Georgia, Takes out of State Donations</h4>
-            <p>The Republican Senator said locals resented out of state donations "to some degree."</p>
-          </div><hr>
-          <div class="story-wrapper">
-            <img src="./assets/img/gop-rep-liz-cheney.webp" alt="">
-            <h4>Liz Cheney Says Trump Snowden Pardon Would Be 'Unconscionable'</h4>
-            <p>The Republican Senator said locals resented out of state donations "to some degree."</p>
-          </div><hr>
-          <div class="story-wrapper">
-            <img src="./assets/img/blood-donation-bags-uk.webp" alt="">
-            <h4>More Gay and Bisexual Men Can Give Blood After U.K. Rule Change</h4>
-            <p>Blood donation rules for gay and bisexual men are being relaxed in Britain's National Health Service, lifting a blanket ban for men who have had sex with men in the last three months.</p>
-          </div><hr>
-          <div class="story-wrapper">
-            <img src="./assets/img/man-typing-stock-image.webp" alt="">
-            <h4>Hacked Software Firm SolarWinds' Clients Include Ford, Microsoft, AT&T</h4>
-            <p>SolarWinds says on its website its products are currently used by more than 300,000 customers, spanning military, government, business giants and educational institutions.</p>
-          </div><hr>
-          <div class="story-wrapper">
-            <img src="./assets/img/covid-19-hospital-room.webp" alt="">
-            <h4>Woman Gets First COVID Vaccine in New York, Trump Tweets 'Congratulations'</h4>
-            <p>A mass vaccination program has started in the U.S as it continues to lead the world in COVID cases and deaths.</p>
-          </div><hr>
-          <div class="story-wrapper">
-            <img src="./assets/img/santa.webp" alt="">
-            <h4>NRA Surprises Boy after Mall Santa Refused to Bring Him Nerf Gun</h4>
-            <p>Michael DeCarlo was seen crying in a viral video after a Santa at an Illinois mall told him "no guns" when he said he asked for a toy weapon for Christmas.</p>
-          </div>
-      </div>
-    </div>
-  </div>
-  <!-- My turn -->
-  <div class="container-fluid" id="my-turn">
-    <h3 class="block-title mt-4">my turn</h3>
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-4">
-        <div class="turn-wrapper">
-          <img src="./assets/img/joe-biden-rescue-dogs-major-delaware.jpg" alt="">
-          <h4>'Joe Biden Adopted The White House's First Rescue Dog From Us'</h4>
-        </div>
-        <div class="turn-wrapper">
-          <img src="./assets/img/covid-19-coronavirus-vaccine-death-family.jpg" alt="">
-          <h4>'My Dad Got the COVID Vaccine Days After My Mom Died With the Virus'</h4>
-        </div>
-        <div class="turn-wrapper">
-          <img src="./assets/img/iraq-iraq-war-jewish-christian.jpg" alt="">
-          <h4>I'm Jewish. Here's How a Christian Pastor Helped Me Through The Iraq War'</h4>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Culture & Travel -->
-  <div class="container-fluid mt-4" id="culture">
-    <h3 class="block-title mt-4 ">culture & travel</h3>
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-4">
-        <div class="card-culture">
-          <div class="card-category-culture">
-            <a href="#">japan</a>
-          </div>
-          <div class="card-image-culture">
-            <a href="#">
-              <img src="./assets/img/sake.webp" alt="">
-            </a>
-          </div>
-          <div class="card-content-culture">
-            <h4>Kosher Sake Pours Into Japan</h4>
-          </div>
-        </div>
-        <div class="card-culture">
-          <div class="card-category-culture">
-            <a href="#">travel</a>
-          </div>
-          <div class="card-image-culture">
-            <a href="#">
-              <img src="./assets/img/suv-micro-rv.webp" alt="">
-            </a>
-          </div>
-          <div class="card-content-culture">
-            <h4>Is Car Glamping the More Accessible Alternative to Van Life?</h4>
-          </div>
-        </div>
-        <div class="card-culture">
-          <div class="card-category-culture">
-            <a href="#">pets</a>
-          </div>
-          <div class="card-image-culture">
-            <a href="#">
-              <img src="./assets/img/pawnix.webp" alt="">
-            </a>
-          </div>
-          <div class="card-content-culture">
-            <h4>Coolest Gifts for Pet Lovers This Year</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Special sponsored -->
-  <div class="container-fluid mt-4" id="special-sponsored">
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-4">
-        <div class="card-sponsored">
-          <div class="card-category-sponsored">
-            <a href="#">Sponsored by berlin partners</a>
-          </div>
-          <div class="card-image-sponsored">
-            <a href="#">
-              <img src="https://d.newsweek.com/en/full/1671053/nnovate2.jpg?w=500&h=333&f=7c0fd52aaf6156db616eed42842988db" alt="">
-            </a>
-          </div>
-          <div class="card-content-sponsored">
-            <h4>Berlin Partners Power NNOVATE</h4>
-            <p>Berlin has long been a place where new technologies develop at a particularly rapid pace. In the early years, the city was a special breeding ground for blockchain technology with its subversive flair. Today, the technology has become an important economic factor with countless use-cases. See the latest in crypto + blockchain and business.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Newsletter -->
-  <div class="newsletter-form align-content-center" id="newsletter-form">
-    <div class="form-title">
-      <img src="./assets/img/N-icon.png" alt="">
-      Start your day with our top 5 articles
-    </div>
-    <form action="">
-        <input class="form-mail" type="text" placeholder="Email address">
-        <input class="form-button" type="submit" value="Free Sing Up >">
-    </form>
-  </div>
-  <!-- Sponsored & rankings -->
-  <div class="container-fluid mt-4" id="sponsored-rankings">
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-4">
-        <div class="card-sponsored">
-          <div class="card-category-sponsored">
-            <a href="#">Sponsored insight</a>
-          </div>
-          <div class="card-image-sponsored">
-            <a href="#">
-              <img src="https://d.newsweek.com/en/full/1649401/campbell-university.jpg?w=500&h=333&f=2b4921bb246488d9f47c766357918503" alt="">
-            </a>
-          </div>
-          <div class="card-content-sponsored">
-            <h4>Why are these careers so highly sought after?</h4>
-            <p>These are some of the most highly rated careers areas today. How do you get started in them?</p>
-          </div>
-        </div>
-        <div class="card-sponsored">
-          <div class="card-category-sponsored">
-            <a href="#">Rankings</a>
-          </div>
-          <div class="card-image-sponsored">
-            <a href="#">
-              <img src="https://d.newsweek.com/en/full/1644076/americas-best-nursing-homes-2020.png?w=500&h=333&f=111d8839cccafaae6c19be7a5c9267ce" alt="">
-            </a>
-          </div>
-          <div class="card-content-sponsored">
-            <h4>America's Best Nursing Homes 2021</h4>
-            <p>In partnership with Statista, we established a ranking providing information and insights to help you during this challenging time.</p>
-          </div>
-        </div>
-        <div class="card-sponsored">
-          <div class="card-category-sponsored">
-            <a href="#">Sponsored insight</a>
-          </div>
-          <div class="card-image-sponsored">
-            <a href="#">
-              <img src="https://d.newsweek.com/en/full/1638920/image-3-this-startup-making.jpg?w=500&h=333&f=d3ab894bb4a4f0a8af53551fabfb306d" alt="">
-            </a>
-          </div>
-          <div class="card-content-sponsored">
-            <h4>This Startup Is Making Long Distance Real Estate Investing Possible for Millennials</h4>
-            <p>75% of Roofstock users are first-time real estate investors, and more than half are under 35.</p>
-          </div>
-        </div>
-        <div class="card-sponsored">
-          <div class="card-category-sponsored">
-            <a href="#">Rankings</a>
-          </div>
-          <div class="card-image-sponsored">
-            <a href="#">
-              <img src="https://d.newsweek.com/en/full/1621635/americas-best-addiction-treatment-centers-2020.png?w=500&h=333&f=882d6618257cbde5fd5acc54362e6fe9" alt="">
-            </a>
-          </div>
-          <div class="card-content-sponsored">
-            <h4>America's Best Addiction Treatment Centers 2020</h4>
-            <p>Newsweek partnered with global market research firm Statista Inc. to rank the best U.S. treatment facilities that focus on addiction.</p>
-          </div>
-        </div>
-        <div class="card-sponsored">
-          <div class="card-category-sponsored">
-            <a href="#">Survey</a>
-          </div>
-          <div class="card-image-sponsored">
-            <a href="#">
-              <img src="https://d.newsweek.com/en/full/1639282/worlds-best-hospitals-2021.png?w=500&h=333&f=c972c7df650ba44249ef33dd7ae66b4f"" alt="">
-            </a>
-          </div>
-          <div class="card-content-sponsored">
-            <h4>The Best Hospitals in the World</h4>
-            <p>Newsweek has partnered with Statista Inc., the global market research and consumer data firm, to develop the ranking of the world's best hospitals for the third year.</p>
-          </div>
-        </div>
-        <div class="card-sponsored">
-          <div class="card-category-sponsored">
-            <a href="#">Rankings</a>
-          </div>
-          <div class="card-image-sponsored">
-            <a href="#">
-              <img src="https://d.newsweek.com/en/full/1587568/infection-prevention-products-banner.jpg?w=500&h=333&f=c96d696a017681c45d2f464a2ae0e23d" alt="">
-            </a>
-          </div>
-          <div class="card-content-sponsored">
-            <h4>Best Infection Prevention Products</h4>
-            <p>During the coronavirus outbreak, health care is more important than ever. In Newsweek's first Best Health Care series, we highlight the best infection prevention products.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Magazine -->
-  <div class="container-fluid mt-4" id="magazine">
-    <div class="magazine-title">
-      <img src="./assets/img/N-icon.png" alt="">
-       In the Magazine
-    </div>
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-4">
-        <img src="./assets/img/cover-december-18-2020.webp" alt="">
-        <h5>december 18 issue</h5>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid mt-4" id="all-features">
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-4">
-        <h3>See all feature<i class="fa fa-chevron-right"></i></h3>
-          <img src="./assets/img/fe-alzheimers-banner.webp" alt="">
-          <div class="features-category">
-            <span class="feature-1">Cover</span>
-            <span class="feature-2">Health</span>
-          </div>
-          <div class="feature-text">
-            Woman, 73, Who Should've Gotten Alzheimer's, Didn't—Renewing Hope for Cure
-          </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-4 mt-5">
-        <img src="./assets/img/fe-courts-vs-trump-banner.webp" alt="">
-        <div class="features-category">
-          <span class="feature-1">feature</span>
-          <span class="feature-2">politics</span>
-        </div>
-        <div class="feature-text">
-          Republican, Dem Judges Have Turned on Trump—and Not Just On the Election 
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-4 mt-5">
-        <img src="./assets/img/covid-economic-relief-bill.webp" alt="">
-        <div class="features-category">
-          <span class="feature-1">persicope</span>
-          <span class="feature-2">business</span>
-        </div>
-        <div class="feature-text">
-          The 10 Best Moves to Make with Your Money Before 2020 Ends 
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-4 mt-5">
-        <img src="./assets/img/man-multiple-electronic-devices.webp" alt="">
-        <div class="features-category">
-          <span class="feature-1">persicope</span>
-          <span class="feature-2">culture</span>
-        </div>
-        <div class="feature-text">
-          Science Says Porn Is a Huge Problem. Lawmakers Must Stop Ignoring It 
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-4 mt-5">
-        <img src="./assets/img/person-typing-backlit-keyboard.webp" alt="">
-        <div class="features-category">
-          <span class="feature-1">persicope</span>
-          <span class="feature-2">culture</span>
-        </div>
-        <div class="feature-text">
-          Banning Porn Is a Bad Idea. There Are Other Ways To Improve the Internet 
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-4 mt-5">
-        <img src="./assets/img/damage-don.png" alt="">
-        <div class="features-category">
-          <span class="feature-1">in focus</span>
-          <span class="feature-2">damage don</span>
-        </div>
-        <div class="feature-text"></div>
-      </div>
-    </div>
-  </div>
-  <!-- Editor's Pick -->
-  <div class="container-fluid mt-4" id="editors-pick">
-    <div class="editors-title">
-      <img src="./assets/img/N-icon.png" alt="">
-      editor's pick
-    </div><hr>
-    <div calss="row">
-      <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
-        <div class="card-feature">
-          <div class="card-category-feature">
-            <a href="#">news</a>
-          </div>
-          <div class="card-image-feature">
-            <a href="#">
-              <img src="./assets/img/covid-19-testing-site-miami-florida-november-2020.webp" alt="">
-            </a>
-          </div>
-          <div class="card-content-feature">
-            <h4>Florida COVID Cases Skyrocket Two Weeks After Thanksgiving</h4>
-            <p>The state's current COVID-19 hospitalizations have been rising sharply since late October.</p>
-          </div>
-        </div>
-        <div class="card-feature">
-          <div class="card-category-feature">
-            <a href="#">tech & science</a>
-          </div>
-          <div class="card-image-feature">
-            <a href="#">
-              <img src="./assets/img/man-typing-stock-image.webp" alt="">
-            </a>
-          </div>
-          <div class="card-content-feature">
-            <h4>Hacked Software Firm SolarWinds' Clients Include Ford, Microsoft, AT&T</h4>
-            <p>SolarWinds says on its website its products are currently used by more than 300,000 customers, spanning military, government, business giants and educational institutions.</p>
-          </div>
-        </div>
-        <div class="card-feature">
-          <div class="card-category-feature">
-            <a href="#">world</a>
-          </div>
-          <div class="card-image-feature">
-            <a href="#">
-              <img src="./assets/img/holocaust-letter.webp" alt="">
-            </a>
-          </div>
-          <div class="card-content-feature">
-            <h4>Heartbreaking Letter from Holocaust Camp Survivor Delivered after 75 Years</h4>
-            <p>Dated May 7 of 1945, the letter was written by Jules Schelvis to his cousin Karel Stroz and is the earliest evidence from a Dutch survivor of the existence of Sobibor, a camp near Lublin in Poland.</p>
-          </div>
-        </div>
-        <div class="card-feature">
-          <div class="card-category-feature">
-            <a href="#">health</a>
-          </div>
-          <div class="card-image-feature">
-            <a href="#">
-              <img src="./assets/img/alex-azar-speaks-white-house-briefing.webp" alt="">
-            </a>
-          </div>
-          <div class="card-content-feature">
-            <h4>Alex Azar Says COVID Vaccine Will Be As Easy to Get As Flu Shot by February</h4>
-            <p>About 2.9 million doses of the Pfizer/BioNTech coronavirus vaccine will be distributed across the country this week.</p>
-          </div>
-        </div>
-        <div class="card-feature">
-          <div class="card-category-feature">
-            <a href="#">U.S</a>
-          </div>
-          <div class="card-image-feature">
-            <a href="#">
-              <img src="./assets/img/donald-trump-vaccine-trustworthy-information-source.webp" alt="">
-            </a>
-          </div>
-          <div class="card-content-feature">
-            <h4>Biden Takes Sharp Aim at Trump's Failed Efforts to Undermine His Victory</h4>
-            <p>President-elect Joe Biden said that his victory in the electoral college "represented a clear victory" in a Monday speech.</p>
-          </div>
-        </div>
-        <div class="card-feature">
-          <div class="card-category-feature">
-            <a href="#">health</a>
-          </div>
-          <div class="card-image-feature">
-            <a href="#">
-              <img src="./assets/img/nurse-sandra-lindsay-inoculated-covid-19-vaccine.webp" alt="">
-            </a>
-          </div>
-          <div class="card-content-feature">
-            <h4>Woman Gets First COVID Vaccine in New York, Trump Tweets 'Congratulations'</h4>
-            <p>A mass vaccination program has started in the U.S as it continues to lead the world in COVID cases and deaths.</p>
-          </div>
-        </div>
-        <div class="card-feature">
-          <div class="card-category-feature">
-            <a href="#">news</a>
-          </div>
-          <div class="card-image-feature">
-            <a href="#">
-              <img src="./assets/img/meghan-markle-visits-canada-house.webp" alt="">
-            </a>
-          </div>
-          <div class="card-content-feature">
-            <h4>What Meghan Markle Said in Surprise CNN Appearance</h4>
-            <p>The Duchess of Sussex made a surprise guest appearance on CNN to praise communities who came together would not stand by while neighbors went hungry.</p>
-          </div>
-        </div>
-        <div class="card-feature">
-          <div class="card-category-feature">
-            <a href="#">news</a>
-          </div>
-          <div class="card-image-feature">
-            <a href="#">
-              <img src="./assets/img/edward-snowden.webp" alt="">
-            </a>
-          </div>
-          <div class="card-content-feature">
-            <h4>Calls to Pardon Edward Snowden See Matt Gaetz, Liz Cheney Clash on Twitter</h4>
-            <p>Debate has taken place on social media as multiple Republican elected officials suggested the former National Security Agency (NSA) contractor-turned-whistleblower should be pardoned by Trump.</p>
-          </div>
-        </div>        
-      </div>
-    </div>
-  </div>
-  <!-- Subscribe -->
-  <div class="container-fluid mt-5" id="subscription">
-    <h3 class="subscription-title">Subscribe</h3>
-    <div class="row mt-3">
-      <div class="col-sm-12 col-md-6 col-lg-4">
-        <div class="sub-images">
-          <img class="prev-thumb" src="./assets/img/cover-december-04-11-2020.jpg" alt="">
-          <img class="current-thumb" src="./assets/img/cover-december-18-2020.jpg" alt="">
-          <h3 class="sub-info">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
-          <p class="sub-text">All Access + Weekly Delivery.
-            Choose A Membership That's Perfect for You!</p>
-          <button class="btn btn-danger second-button">subscribe ></button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Newsletter -->
-  <div class="container-fluid mt-4" id="newsletter">
-    <h3 class="newsletter-title">Newsletter</h3>
-    <div class="col-sm-12 col-md col-lg mt-3">
-      <div class="card-newsletter d-md-flex">
-        <div class="card-image-1">
-          <img src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5" alt="">
-        </div>
-        <div class="card-content-1">
-          <h4>The Starting 5</h4>
-          <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
-          <form action="">
-            <input class="news-text" type="text" placeholder="Email address">
-            <input class="news-submit" type="submit" value="FREE SIGN UP">
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Footer -->
-  <footer class="main-footer">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12">
-          <a href="https://newsweek.com">
-            <img src="./assets/img/newsweek-vector-logo.png" alt="">
-          </a>
-          <p class="copyright d-md-inline align-baseline">© 2020 NEWSWEEK DIGITAL LLC</p>
-          <ul class="social d-flex justify-content-evenly d-md-flex align-items-end">
-            <li><a href="#"><i class="fa fa-facebook-square fa-lg"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter-square fa-lg"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram fa-lg"></i></a></li>
-            <li><a href="#"><i class="fa fa-tumblr-square fa-lg"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
-          </ul>
-          <hr>
-          <div class="footer-menu d-flex d-lg-block">
-            <h3 class="label">Editions:</h3>
-            <ul class="menu d-flex flex-wrap justify-content-around">
-              <li><a href="#">U.S Edition |</a></li>
-              <li><a href="#">日本 |</a></li>
-              <li><a href="#">Pakistan |</a></li>
-              <li><a href="#">Polska |</a></li>
-              <li><a href="#">România</a></li>
-            </ul>
-          </div>
-          <div class="footer-link d-sm-flex d-lg-block">
-            <ul class="link d-flex flex-wrap">
-              <li><a href="#">About Us </a></li>
-              <li><a href="#">Corrections </a></li>
-              <li><a href="#">Contact Us </a></li>
-              <li><a href="#">Editorial Guidelines</a></li>
-              <li><a href="#">Advertise </a></li>
-              <li><a href="#">Copyright </a></li>
-              <li><a href="#">Terms & Conditions </a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Cookie Policy </a></li>
-              <li><a href="#">Terms of Sale </a></li>
-              <li><a href="#">Archive </a></li>
-              <li><a href="#">Announcements</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
   <!-- Boostrap bundle JS File -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
