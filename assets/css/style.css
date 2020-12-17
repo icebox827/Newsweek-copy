@@ -463,7 +463,7 @@ font-size: medium;
 }
 
 .wrap .magazine-image-1 img {
-  width: 97%;
+  width: 96%;
   height: 320px;
 } 
 
@@ -499,6 +499,6 @@ font-size: medium;
 .wrap .magazine-content h3 {
   width: 90%;
   font-weight: 800;
-  font-size: small;
+  font-size: large;
   padding-top: 12px;
 }
