@@ -176,6 +176,19 @@ li a {
   z-index: 1;
 }
 
+.debate .wrap .debate-sponsored-category a {
+  position: absolute;
+  padding: 1px 7px 7px 1px;
+  margin-top: 15rem;
+  background-color: rgb(196, 194, 194);
+  font-size: large;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3246f5;
+  z-index: 1;
+}
+
 #main-nav li a {
   font-size: large;
   font-weight: bold;
@@ -241,6 +254,15 @@ li a {
   font-size: medium;
   font-weight: 600;
   color: black;
+}
+
+.wrap .magazine-title h4 {
+  margin: 0 auto;
+  color: rgb(68, 68, 68);
+  font-weight: 00;
+  font-size: large;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .features .wrap .wrap-content h4 {
@@ -419,35 +441,14 @@ li a {
   font-size: medium;
 }
 
-.debate .wrap .debate-sponsored-category a {
-  position: absolute;
-  padding: 1px 7px 7px 1px;
-  margin-top: 15rem;
-  background-color: rgb(196, 194, 194);
-  font-size: large;
-  font-weight: 600;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #3246f5;
-  z-index: 1;
-}
-
 .debate .special-sponsored {
   border: #f1eaea 1px solid;
 }
+
 /* Magazine */
 
 .wrap .magazine-title {
   margin: 0 auto;
-}
-
-.wrap .magazine-title h4 {
-  margin: 0 auto;
-  color: rgb(68, 68, 68);
-  font-weight: 00;
-  font-size: large;
-  text-align: center;
-  text-transform: uppercase;
 }
 
 .wrap .magazine-title img {
