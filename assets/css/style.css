@@ -676,3 +676,13 @@ font-size: medium;
 .editions h3 {
     font-size: medium;
 }
+
+.editions .footer-link li a {
+    color: #666;
+    margin: 3px;
+}
+
+.link li a {
+    color: #666;
+    margin: 7px;
+}
