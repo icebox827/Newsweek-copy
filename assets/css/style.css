@@ -271,6 +271,10 @@ li a {
   z-index: 1;
 }
 
+.features .wrap {
+  border: #f1eaea 1px solid;
+}
+
 /* My turn */
 
 .top-story .wrap .turn-image img {
@@ -432,6 +436,9 @@ font-size: medium;
   z-index: 1;
 }
 
+.debate .special-sponsored {
+  border: #f1eaea 1px solid;
+}
 /* Magazine */
 
 .wrap .magazine-title {
@@ -791,4 +798,42 @@ font-size: medium;
   .top-story .wrap .stories p {
     font-size: 15px;
   }
+
+  .debate .wrap .special-content h4 {
+    width: 80%;
+    font-size: x-large;
+    padding-top: 10px;
+    font-weight: 800;
+    padding-left: 15px;
+  }
+  
+  .debate .special-sponsored {
+    width: 50%;
+    margin: 0 auto;
+    border: #f1eaea 1px solid;
+  }
+
+  .debate .wrap .special-content p {
+    width: 80%;
+    font-size: medium;
+    padding-left: 15px;
+  }
+  
+  .debate .wrap .special-category a {
+    position: absolute;
+    padding: 1px 7px 7px 1px;
+    margin-top: 13.2rem;
+    background-color: rgb(196, 194, 194);
+    font-size: large;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3246f5;
+    z-index: 1;
+  }
+  
+  .debate .wrap .special-image img {
+    width: 100%;
+  }
+  
 }
