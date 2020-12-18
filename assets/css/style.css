@@ -885,6 +885,11 @@ font-size: medium;
     border: #f1eaea 1px solid;
   }  
 
+  .subscribe {
+    background-color: #f7f7f7;
+    height: 270px;
+  }
+
   .wrap .magazine-content h5 {
     text-transform: uppercase;
     font-size: medium;
