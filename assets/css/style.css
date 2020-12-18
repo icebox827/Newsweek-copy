@@ -33,9 +33,36 @@ li a {
   padding-right: 10px;
 }
 
+.debate-wrapper-1 img {
+  float: right;
+  padding-left: 10px;
+}
+
+.debate .opinion-wrapper img {
+  float: left;
+  padding-right: 10px;
+}
+
 .features .wrap .wrap-image img {
   width: 100%;
-} 
+}
+
+.top-story .wrap .wrap-image img {
+  width: 100%;
+}
+
+.features .wrap .wrap-sponsored-image img {
+  width: 100%;
+}
+
+.top-story .wrap .turn-image img {
+  width: 85%;
+  margin-top: 10px;
+}
+
+.top-story .wrap .culture-image img {
+  width: 85%;
+}
 
 #wide-nav a img {
   height: 60px;
@@ -64,11 +91,6 @@ li a {
   background-color: #fdfdfd;
 }
 
-.debate-wrapper-1 img {
-  float: right;
-  padding-left: 10px;
-}
-
 .features .wrap .wrap-category a {
   position: absolute;
   padding: 1px 7px 7px 1px;
@@ -92,6 +114,32 @@ li a {
   text-decoration: none;
   text-transform: uppercase;
   color: #f72210;
+  z-index: 1;
+}
+
+.features .wrap .wrap-sponsored-category a {
+  position: absolute;
+  padding: 1px 7px 7px 1px;
+  margin-top: 10.5rem;
+  background-color: rgb(196, 194, 194);
+  font-size: large;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3246f5;
+  z-index: 1;
+}
+
+.top-story .wrap .culture-category a {
+  position: absolute;
+  padding: 1px 5px 5px 1px;
+  margin-top: 7.5rem;
+  background-color: rgb(196, 194, 194);
+  font-size: large;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2c2c2c;
   z-index: 1;
 }
 
@@ -141,19 +189,7 @@ li a {
 
 .features .wrap {
   width: 100%;
-}
-
-.features .wrap .wrap-category a {
-  position: absolute;
-  padding: 1px 7px 7px 1px;
-  margin-top: 10.2rem;
-  background-color: rgb(196, 194, 194);
-  font-size: large;
-  font-weight: 600;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #f72210;
-  z-index: 1;
+  border: #f1eaea 1px solid;
 }
 
 .debate-wrapper h4 {
@@ -168,10 +204,20 @@ li a {
   color: black;
 }
 
+.debate .opinion-wrapper h4 {
+  font-size: medium;
+  font-weight: 600;
+  color: black;
+}
+
 .features .wrap .wrap-content h4 {
   font-size: medium;
   padding-top: 10px;
   font-weight: 700;
+}
+
+.debate .opinion-wrapper p {
+  padding-left: 70px;
 }
 
 .features .wrap .wrap-content p {
@@ -182,23 +228,6 @@ li a {
 
 .top-story .wrap {
   width: 100%;
-}
-
-.top-story .wrap .wrap-image img {
-  width: 100%;
-}
-
-.top-story .wrap .wrap-category a {
-  position: absolute;
-  padding: 1px 7px 7px 1px;
-  margin-top: 19.5rem;
-  background-color: rgb(196, 194, 194);
-  font-size: large;
-  font-weight: 600;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #f72210;
-  z-index: 1;
 }
 
 .top-story .wrap .wrap-content h4 {
@@ -246,21 +275,6 @@ li a {
 
 /* opinion */
 
-.debate .opinion-wrapper img {
-  float: left;
-  padding-right: 10px;
-}
-
-.debate .opinion-wrapper h4 {
-  font-size: medium;
-  font-weight: 600;
-  color: black;
-}
-
-.debate .opinion-wrapper p {
-  padding-left: 70px;
-}
-
 .debate .opinion-wrapper .opinion-signature {
   color: #333;
   font-weight: 500;
@@ -268,10 +282,6 @@ li a {
 }
 
 /* sposored and rankings */
-
-.features .wrap .wrap-sponsored-image img {
-  width: 100%;
-}
 
 .features .wrap .wrap-sponsored-content h4 {
   font-size: medium;
@@ -283,29 +293,7 @@ li a {
   font-size: small;
 }
 
-.features .wrap .wrap-sponsored-category a {
-  position: absolute;
-  padding: 1px 7px 7px 1px;
-  margin-top: 10.5rem;
-  background-color: rgb(196, 194, 194);
-  font-size: large;
-  font-weight: 600;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #3246f5;
-  z-index: 1;
-}
-
-.features .wrap {
-  border: #f1eaea 1px solid;
-}
-
 /* My turn */
-
-.top-story .wrap .turn-image img {
-  width: 85%;
-  margin-top: 10px;
-}
 
 .top-story .wrap .turn-content h4 {
   width: 85%;
@@ -315,23 +303,6 @@ li a {
 }
 
 /* Culture & Travel */
-
-.top-story .wrap .culture-image img {
-  width: 85%;
-}
-
-.top-story .wrap .culture-category a {
-  position: absolute;
-  padding: 1px 5px 5px 1px;
-  margin-top: 7.5rem;
-  background-color: rgb(196, 194, 194);
-  font-size: large;
-  font-weight: 500;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #2c2c2c;
-  z-index: 1;
-}
 
 .top-story .wrap .culture-content h4 {
   width: 85%;
