@@ -877,4 +877,65 @@ font-size: medium;
     margin: 0 auto;
     border: #f1eaea 1px solid;
   }  
+
+  .wrap .magazine-content h5 {
+    text-transform: uppercase;
+    font-size: medium;
+    color: red;
+    padding-left: 10px;
+    margin-top: -15px;
+  }
+  
+  .wrap .magazine-image img {
+    width: 80%;
+  }
+  
+  .wrap .magazine-image-1 img {
+    width: 170px;
+    height: 200px;
+    margin-right: 12px;
+  } 
+  
+  .wrap .magazine-category {
+    text-transform: uppercase;
+    padding: 10px 20px 0 0;
+    font-weight: 700;
+    font-size: medium;
+  }
+  
+  .wrap .all-features h3 {
+    width: 80%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: medium;
+    font-weight: 800;
+    color: rgb(7, 7, 7);
+    background-color: rgb(199, 195, 195);
+    box-sizing: border-box;
+    padding: 10px;
+  }
+    
+  .wrap .magazine-category .feature-1 {
+    color: white;
+    background-color: red;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+    
+  .wrap .magazine-category .feature-2 {
+    color: red;
+    padding-right: 10px;
+  }
+    
+  .wrap .magazine-content h3 {
+    width: 80%;
+    font-weight: 800;
+    font-size: medium;
+    padding-top: 12px;
+  }
+  
+  .magazine {
+    position: relative;
+    left: -3rem;
+  }
 }
