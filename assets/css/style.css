@@ -594,7 +594,7 @@ font-size: medium;
 
 .subscribe {
   background-color: #f7f7f7;
-  height: 400px;
+  height: 370px;
 }
 
 .subscribe .subscribe-image img {
@@ -604,10 +604,12 @@ font-size: medium;
 .subscribe .subscribe-content h3 {
   font-size: large;
   font-weight: 800;
+  padding-left: 10px;
 }
 
 .subscribe .subscribe-content p {
   font-size: medium;
+  padding-left: 10px;
 }
 
 .subscribe .subscribe-content .second-button {
@@ -617,6 +619,7 @@ font-size: medium;
   font: bold 13px/24px "Roboto Condensed",sans-serif;
   background-color: #f72210;
   margin-bottom: 30px;
+  margin-left: 10px;
 }
   
 .subscribe .subscribe-image .prev-thumb {
@@ -640,29 +643,30 @@ font-size: medium;
 
 .wrap .newsletter-image img {
   width: 100%;
-  height: 400px;
+  height: 370px;
 }
   
 .wrap .newsletter-content h4 {
   font-weight: 800;
   font-size: x-large;
-  
+  padding-left: 10px;
 }
 
 .wrap .newsletter-content p {
  font-size: medium;
+ padding-left: 10px;
 }
 
 .wrap .newsletter-content .news-text {
   width: 65%;
   margin-left: 15px;
-  padding: 5px 0 5px 5px;
+  padding: 5px 0 0 5px;
 }
 
 .wrap .newsletter-content .news-submit {
   width: 65%;
   margin-left: 15px;
-  padding: 5px 0px 5px 5px;
+  padding: 5px 0 0 5px;
   color: white;
   background-color: #f72210;
 }
@@ -673,12 +677,15 @@ font-size: medium;
 }
 
 .top-footer p {
+  position: absolute;
   font-size: small;
+  margin-top: 15px;
+  left: 20rem;
 }
 
- .social li a {
+.social li a {
   color: #666;
-  margin: 10px
+  margin: 10px;
 }
 
 .editions h3 {
@@ -686,13 +693,13 @@ font-size: medium;
 }
 
 .editions .footer-link li a {
-    color: #666;
-    margin: 3px;
+  color: #666;
+  margin: 3px;
 }
 
 .link li a {
-    color: #666;
-    margin: 7px;
+  color: #666;
+  margin: 7px;
 }
 
 @media screen and (max-width: 767px) {
@@ -937,5 +944,29 @@ font-size: medium;
   .magazine {
     position: relative;
     left: -3rem;
+  }
+
+  .wrap .newsletter-content .news-text {
+    width: 45%;
+    margin-left: 10px;
+  }
+  
+  .wrap .newsletter-content .news-submit {
+    width: 45%;
+    margin-left: -15px;
+    color: white;
+    background-color: #f72210;
+  }
+
+  .wrap .newsletter-image img {
+    width: 100%;
+    height: 220px;
+  }
+
+  .top-footer p {
+    position: absolute;
+    font-size: small;
+    margin-top: 8px;
+    left: 8rem;
   }
 }
