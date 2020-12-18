@@ -835,5 +835,46 @@ font-size: medium;
   .debate .wrap .special-image img {
     width: 100%;
   }
+
+  .newsletter-form {
+    position: relative;
+    width: 45%;
+    padding: 25px;
+    border: 1px solid #e5e5e5;
+    background-color: #f4f5f6;
+    margin: 0 auto;
+  }
+
+  .debate .wrap .debate-sponsored-image img {
+    width: 100%;
+  }
   
+  .debate .wrap .debate-sponsored-content h4 {
+    font-size: x-large;
+    padding-top: 10px;
+    font-weight: 800;
+  }
+  
+  .debate .wrap .debate-sponsored-content p {
+  font-size: medium;
+  }
+  
+  .debate .wrap .debate-sponsored-category a {
+    position: absolute;
+    padding: 1px 7px 7px 1px;
+    margin-top: 13.2rem;
+    background-color: rgb(196, 194, 194);
+    font-size: large;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3246f5;
+    z-index: 1;
+  }
+
+  .debate .sponsored-category {
+    width: 50%;
+    margin: 0 auto;
+    border: #f1eaea 1px solid;
+  }  
 }
