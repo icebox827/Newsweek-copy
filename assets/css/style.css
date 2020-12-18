@@ -686,3 +686,35 @@ font-size: medium;
     color: #666;
     margin: 7px;
 }
+
+@media screen and (max-width: 767px) {
+  .weather {
+    display: none;
+  }
+
+  #wide-nav .login-button {
+    display: none;
+  }
+
+  #main-nav {
+    display: none;
+   }
+ 
+   #second-nav {
+     display: none;
+   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .weather {
+    display: none;
+  }
+
+  #main-nav {
+   display: none;
+  }
+
+  #second-nav {
+    display: none;
+  }
+}
