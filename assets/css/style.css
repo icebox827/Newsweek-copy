@@ -659,3 +659,20 @@ font-size: medium;
   background-color: #f72210;
 }
  
+/* footer */
+.top-footer a img {
+  width: 20%;
+}
+
+.top-footer p {
+  font-size: small;
+}
+
+ .social li a {
+  color: #666;
+  margin: 10px
+}
+
+.editions h3 {
+    font-size: medium;
+}
