@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  margin: inherit;
+}
+
 ul {
   list-style: none;
 }
@@ -19,14 +23,17 @@ li a {
 
 h3 {
   overflow-y: hidden;
+  margin: inherit;
 }
 
 h4 {
   overflow-y: hidden;
+  margin: inherit;
 }
 
 h5 {
   overflow-y: hidden;
+  margin: inherit;
 }
 
 #middle-section {
@@ -53,7 +60,7 @@ h5 {
 
 #wide-nav {
   position: sticky;
-  max-width: 1310px;
+  width: 100%;
   background-color: #f72210;
 }
 
@@ -64,7 +71,7 @@ h5 {
 
 .debate-wrapper img {
   float: left;
-  padding-right: 10px;
+  padding-right: 5px;
 }
 
 .debate-wrapper-1 img {
@@ -755,15 +762,13 @@ h5 {
   }
 
   #wide-nav a img {
-    width: 80;
+    width: 80%;
     height: 35px;
   }
 
   #wide-nav .users {
-    position: absolute;
     color: #807d7d;
     top: 12px;
-    left: 15px;
   }
 
   #wide-nav .nav-button {
@@ -935,6 +940,10 @@ h5 {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
+  
   .weather {
     display: none;
   }
