@@ -1,10 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body {
   background-color: #d8d8d8;
+  overflow-x: hidden;
 }
 
 ul {
@@ -13,6 +15,18 @@ ul {
 
 li a {
   text-decoration: none;
+}
+
+h3 {
+  overflow-y: hidden;
+}
+
+h4 {
+  overflow-y: hidden;
+}
+
+h5 {
+  overflow-y: hidden;
 }
 
 /* Wide Navabar */
@@ -69,6 +83,7 @@ li a {
 
 .subscribe .subscribe-image img {
   width: 60%;
+  object-fit: cover;
 }
 
 .wrap .editors-image img {
@@ -80,13 +95,13 @@ li a {
 }
 
 .wrap .magazine-image-1 img {
-  width: 96%;
+  width: 97%;
   height: 320px;
 }
 
 .wrap .newsletter-image img {
   width: 100%;
-  height: 370px;
+  height: 462px;
 }
 
 .wrap .magazine-image-2 img {
@@ -132,6 +147,7 @@ li a {
 
 .mobile .wrap .wrap-image img {
   width: 100%;
+  object-fit: cover;
 }
 
 #wide-nav a img {
@@ -627,8 +643,9 @@ li a {
 .wrap .magazine-content h3 {
   width: 90%;
   font-weight: 800;
-  font-size: large;
-  padding-top: 12px;
+  font-size: medium;
+  padding-top: 10px;
+  overflow-y: hidden;
 }
 
 /* Editors Pick */
@@ -647,7 +664,7 @@ li a {
 
 .subscribe {
   background-color: #f7f7f7;
-  height: 370px;
+  height: auto;
 }
 
 .subscribe .subscribe-content h3 {
@@ -871,6 +888,7 @@ li a {
     position: relative;
     left: 3rem;
     width: 550px;
+    object-fit: cover;
   }
 
   .subscribe .subscribe-image .prev-thumb {
@@ -991,9 +1009,11 @@ li a {
   }
 
   .wrap .magazine-image-1 img {
-    width: 170px;
+    display: inline;
+    width: 350px;
     height: 200px;
-    margin-right: 12px;
+    margin: 12px;
+    
   }
 
   .top-story .wrap .stories img {
