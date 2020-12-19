@@ -3,19 +3,19 @@ A copy of the Newsweek website build with Bootstrap 4
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# The NextWeb - COPY
+# Newsweek-COPY
 
-> This is the Microverse thir week project
+> This is the Microverse third week project
 
-![app_screenshot.PNG](https://github.com/icebox827/theNextWeb/blob/homepage/app_screenshot.png?raw=true)
+![app_screenshot.PNG](https://github.com/icebox827/theNextWeb/raw/homepage/app_screenshot.png?raw=true)
 ![app_screenshot1.PNG](https://github.com/icebox827/theNextWeb/blob/homepage/app_screenshot1.png?raw=true)
 
-This is a copy of an article from The Next web website including media queries for responsiveness.
 
 ## Built With
 
 - HTML
 - CSS
+- Bootstrap
 
 ## Live Demo
 
