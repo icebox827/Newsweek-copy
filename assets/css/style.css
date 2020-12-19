@@ -124,6 +124,10 @@ li a {
   width: 100%;
 }
 
+.mobile .wrap .wrap-image img {
+  width: 100%;
+}
+
 #wide-nav a img {
   height: 60px;
 }
@@ -172,6 +176,12 @@ li a {
   text-transform: uppercase;
   color: #f72210;
   z-index: 1;
+}
+
+.editions .footer-link li a {
+  color: #666;
+  padding-top: 10px;
+  margin: 3px;
 }
 
 .features .wrap .wrap-category a {
@@ -362,6 +372,13 @@ li a {
   font-size: medium;
   padding-top: 10px;
   font-weight: 700;
+}
+
+.top-footer p {
+  position: absolute;
+  font-size: small;
+  margin-top: 15px;
+  left: 20rem;
 }
 
 .debate .opinion-wrapper p {
@@ -680,19 +697,6 @@ li a {
   display: none;
 }
 
-.top-footer p {
-  position: absolute;
-  font-size: small;
-  margin-top: 15px;
-  left: 20rem;
-}
-
-.editions .footer-link li a {
-  color: #666;
-  padding-top: 10px;
-  margin: 3px;
-}
-
 @media screen and (max-width: 767px) {
   .weather {
     display: none;
@@ -755,10 +759,6 @@ li a {
     width: 100%;
   }
 
-  .mobile .wrap .wrap-image img {
-    width: 100%;
-  }
-
   .mobile .wrap .wrap-category a {
     position: absolute;
     padding: 1px 7px 7px 1px;
@@ -799,7 +799,7 @@ li a {
     background-color: #f7f7f7;
     height: 540px;
   }
-  
+
   .subscribe .subscribe-content {
     position: relative;
     top: 12rem;
@@ -811,14 +811,13 @@ li a {
     font-weight: 800;
     padding-left: 10px;
   }
-  
+
   .subscribe .subscribe-content .second-button {
     color: white;
     border-radius: 4px;
     text-transform: uppercase;
     font: bold 13px/24px "Roboto Condensed", sans-serif;
     background-color: #f72210;
-    
   }
 
   .subscribe .subscribe-image {
@@ -826,14 +825,14 @@ li a {
     left: 3rem;
     width: 550px;
   }
-  
+
   .subscribe .subscribe-image .prev-thumb {
     position: relative;
     top: 30px;
     left: 15px;
     width: 100%;
   }
-  
+
   .subscribe .subscribe-image .current-thumb {
     position: relative;
     bottom: 9rem;
@@ -871,7 +870,6 @@ li a {
     font-size: medium;
     margin-top: 50px;
   }
-
 
   .editions .footer-link li a {
     position: relative;
@@ -1110,7 +1108,7 @@ li a {
     top: 30px;
     left: 15px;
   }
-  
+
   .subscribe .subscribe-image .current-thumb {
     position: relative;
     bottom: 9.5rem;
