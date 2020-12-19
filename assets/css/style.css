@@ -1009,11 +1009,9 @@ h5 {
   }
 
   .wrap .magazine-image-1 img {
-    display: inline;
-    width: 350px;
+    width: 170px;
     height: 200px;
     margin: 12px;
-    
   }
 
   .top-story .wrap .stories img {
