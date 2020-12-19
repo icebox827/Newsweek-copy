@@ -687,6 +687,12 @@ li a {
   left: 20rem;
 }
 
+.editions .footer-link li a {
+  color: #666;
+  padding-top: 10px;
+  margin: 3px;
+}
+
 @media screen and (max-width: 767px) {
   .weather {
     display: none;
@@ -835,6 +841,57 @@ li a {
     width: 100%;
   }
 
+  .top-footer {
+    display: block;
+  }
+
+  .top-footer a img {
+    width: 180px;
+    margin: 4px;
+  }
+
+  .top-footer p {
+    position: relative;
+    font-size: small;
+    top: 35px;
+    left: -11rem;
+  }
+
+  .social li a {
+    position: relative;
+    width: 80%;
+    color: #666;
+    margin: 7px;
+    align-items: flex-start;
+    top: 4rem;
+    left: -18rem;
+  }
+
+  .editions h3 {
+    font-size: medium;
+    margin-top: 50px;
+  }
+
+
+  .editions .footer-link li a {
+    position: relative;
+    color: #666;
+    padding-top: 10px;
+    margin: 3px;
+    bottom: -50px;
+    left: -30px;
+  }
+
+  .link li a {
+    position: relative;
+    color: #666;
+    padding-top: 10px;
+    margin: 5px;
+    bottom: -30px;
+    left: -30px;
+    text-align: left;
+  }
+
   .non-mobile {
     display: none;
   }
@@ -855,11 +912,6 @@ li a {
 
   .mobile {
     display: none;
-  }
-
-  .editions .footer-link li a {
-    color: #666;
-    margin: 3px;
   }
 
   .features .wrap .wrap-category a {
@@ -1051,6 +1103,18 @@ li a {
   .subscribe {
     background-color: #f7f7f7;
     height: 270px;
+  }
+
+  .subscribe .subscribe-image .prev-thumb {
+    position: relative;
+    top: 30px;
+    left: 15px;
+  }
+  
+  .subscribe .subscribe-image .current-thumb {
+    position: relative;
+    bottom: 9.5rem;
+    left: 6.5rem;
   }
 
   .wrap .magazine-content h5 {
