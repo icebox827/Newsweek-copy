@@ -195,6 +195,7 @@ h5 {
   position: relative;
   max-width: 1310px;
   background-color: #fdfdfd;
+  margin: 0 auto;
 }
 
 .social li a {
