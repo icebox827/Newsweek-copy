@@ -788,6 +788,53 @@ li a {
     font-size: large;
   }
 
+  .subscribe {
+    display: block;
+    background-color: #f7f7f7;
+    height: 540px;
+  }
+  
+  .subscribe .subscribe-content {
+    position: relative;
+    top: 12rem;
+    right: 4rem;
+  }
+
+  .subscribe .subscribe-content h3 {
+    font-size: medium;
+    font-weight: 800;
+    padding-left: 10px;
+  }
+  
+  .subscribe .subscribe-content .second-button {
+    color: white;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font: bold 13px/24px "Roboto Condensed", sans-serif;
+    background-color: #f72210;
+    
+  }
+
+  .subscribe .subscribe-image {
+    position: relative;
+    left: 3rem;
+    width: 550px;
+  }
+  
+  .subscribe .subscribe-image .prev-thumb {
+    position: relative;
+    top: 30px;
+    left: 15px;
+    width: 100%;
+  }
+  
+  .subscribe .subscribe-image .current-thumb {
+    position: relative;
+    bottom: 9rem;
+    left: 4rem;
+    width: 100%;
+  }
+
   .non-mobile {
     display: none;
   }
