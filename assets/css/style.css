@@ -749,20 +749,33 @@ li a {
     width: 100%;
   }
 
-  .top-story .mobile .wrap .wrap-image img {
+  .mobile .wrap .wrap-image img {
     width: 100%;
   }
 
-  .top-story .mobile .wrap .wrap-category a {
+  .mobile .wrap .wrap-category a {
     position: absolute;
     padding: 1px 7px 7px 1px;
-    margin-top: 17rem;
+    margin-top: 11.2rem;
     background-color: rgb(196, 194, 194);
     font-size: large;
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
     color: #f72210;
+    z-index: 1;
+  }
+
+  .debate .wrap .debate-sponsored-category a {
+    position: absolute;
+    padding: 1px 7px 7px 1px;
+    margin-top: 10.4rem;
+    background-color: rgb(196, 194, 194);
+    font-size: large;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3246f5;
     z-index: 1;
   }
 
