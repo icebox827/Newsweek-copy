@@ -76,8 +76,8 @@ h5 {
 }
 
 .wrap .pick-image-1 img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: auto ;
   margin: 5px;
 }
 
