@@ -29,6 +29,26 @@ h5 {
   overflow-y: hidden;
 }
 
+#middle-section {
+  max-width: 1310px;
+}
+
+#editors-pick {
+  max-width: 1310px;
+}
+
+#pick {
+  max-width: 1310px;
+}
+
+#subscribe {
+  max-width: 1310px;
+}
+
+#global-footer {
+  max-width: 1310px;
+}
+
 /* Wide Navabar */
 
 #wide-nav {
