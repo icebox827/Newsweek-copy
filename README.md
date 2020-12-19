@@ -7,8 +7,8 @@ A copy of the Newsweek website build with Bootstrap 4
 
 > This is the Microverse third week project
 
-![app_screenshot.PNG](https://github.com/icebox827/theNextWeb/raw/homepage/app_screenshot.png?raw=true)
-![app_screenshot1.PNG](https://github.com/icebox827/theNextWeb/blob/homepage/app_screenshot1.png?raw=true)
+![app_screenshot.PNG](https://github.com/icebox827/Newsweek-copy/blob/homepage/app-screenshot.png?raw=true)
+![app_screenshot1.PNG](https://github.com/icebox827/Newsweek-copy/blob/homepage/app-screenshot1.png?raw=true)
 
 
 ## Built With
