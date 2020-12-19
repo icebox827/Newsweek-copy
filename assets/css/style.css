@@ -680,13 +680,57 @@ li a {
   display: none;
 }
 
+.top-footer p {
+  position: absolute;
+  font-size: small;
+  margin-top: 15px;
+  left: 20rem;
+}
+
 @media screen and (max-width: 767px) {
   .weather {
     display: none;
   }
 
+  #wide-nav {
+    height: 50px;
+  }
+
   #wide-nav .login-button {
     display: none;
+  }
+
+  #wide-nav a img {
+    width: 80;
+    height: 35px;
+  }
+
+  #wide-nav .users {
+    position: absolute;
+    color: #807d7d;
+    top: 12px;
+    left: 15px;
+  }
+
+  #wide-nav .nav-button {
+    position: absolute;
+    top: -10px;
+    left: 9rem;
+    margin: 4px;
+  }
+
+  #wide-nav .submit-button {
+    width: 100%;
+    height: 30px;
+    line-height: 1;
+    font-size: 90%;
+  }
+
+  #wide-nav .toggle {
+    position: absolute;
+    color: #807d7d;
+    top: 12px;
+    right: -25px;
   }
 
   #main-nav {
