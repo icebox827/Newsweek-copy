@@ -154,7 +154,7 @@ h5 {
   float: left;
   width: 115px;
   height: 115px;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .debate .wrap .special-image img {
@@ -783,7 +783,6 @@ h5 {
     position: absolute;
     color: #807d7d;
     top: 12px;
-    right: -25px;
   }
 
   #main-nav {
